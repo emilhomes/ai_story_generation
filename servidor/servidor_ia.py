@@ -62,13 +62,15 @@ Style: ToonYou 3D Animation / Pixar style.
 Output: Valid JSON only.
 
 ### LANGUAGE MAP (MANDATORY) ###
-- historia (PT-BR) -> Full paragraph for the child.
+- historia (PT-BR) -> Full paragraph for the child (on screen).
+- fala_robo (PT-BR) -> VERY SIMPLE version for the NAO robot to speak (max 2 short sentences).
 - opcoes (PT-BR) -> 2 choices for the child.
 - personagens, microcenas, acao, camera, emocao, cenario (EN-US) -> Technical metadata for images.
 
 ### EXAMPLE OF CORRECT BILINGUAL OUTPUT ###
 {{
-  "historia": "João chegou na escola nova com um frio na barriga. Ele viu seus colegas brincando no pátio e respirou fundo, sentindo o perfume das flores no jardim. Com um sorriso tímido, ele começou a caminhar em direção ao grupo, pronto para sua primeira grande aventura.",
+  "historia": "João chegou na escola nova com um frio na barriga. Ele viu seus colegas brincando no pátio e respirou fundo, sentindo o perfume das flores no jardim.",
+  "fala_robo": "Oi! O João chegou na escola nova. Ele está um pouco nervoso, mas muito curioso!",
   "opcoes": ["Acenar para o grupo", "Observar a brincadeira"],
   "personagens": [{{ "nome": "João", "descricao_visual": "1boy, cute child, blonde hair, blue shirt, school uniform" }}],
   "microcenas": [
@@ -131,6 +133,7 @@ def processar_cena(cena_dados, personagens_globais):
     
     return {
         "historia": cena_dados.get("historia", ""),
+        "fala_robo": cena_dados.get("fala_robo", ""),
         "opcoes": (cena_dados.get("opcoes", []) + ["Continuar", "Explorar"])[:2],
         "prompts_imagens": prompts_imagens,
         "microcenas_textos": [c.get("acao", "") for c in microcenas[:3]]
@@ -162,6 +165,7 @@ def iniciar():
     return jsonify({
         'session_id': sid, 'status': 'sucesso', 'node_id': ctx['current_step'],
         'historia_original': proc['historia'],
+        'fala_robo': proc['fala_robo'],
         'prompts_imagens': proc['prompts_imagens'],
         'microcenas_textos': proc['microcenas_textos'],
         'negative_prompt': NEGATIVE_TOONYOU,
@@ -193,6 +197,7 @@ def escolher():
     return jsonify({
         'session_id': sid, 'status': 'sucesso', 'node_id': ctx['current_step'],
         'historia_original': proc['historia'],
+        'fala_robo': proc['fala_robo'],
         'prompts_imagens': proc['prompts_imagens'],
         'microcenas_textos': proc['microcenas_textos'],
         'negative_prompt': NEGATIVE_TOONYOU,

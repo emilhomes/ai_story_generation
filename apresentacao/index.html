@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAO - Aventuras Socioemocionais</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        :root {
+            --book-bg: #f4e4bc;
+            --page-shadow: rgba(0,0,0,0.2);
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #222;
+            overflow: hidden;
+            font-family: 'Georgia', serif;
+        }
+
+        #book-container {
+            width: 90vw;
+            height: 80vh;
+            margin: 5vh auto;
+            background: var(--book-bg);
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Lado Esquerdo: Imagem */
+        #visual-side {
+            flex: 1;
+            background: #000;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #scene-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.1); /* Preparado para o Ken Burns Effect */
+        }
+
+        /* Lado Direito: Texto */
+        #text-side {
+            flex: 1;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 2px solid rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        #story-text {
+            font-size: 2.2rem;
+            line-height: 1.6;
+            color: #332b1a;
+            opacity: 0;
+        }
+
+        #choices-container {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            opacity: 0;
+        }
+
+        .choice-btn {
+            background: #a67c52;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .choice-btn:hover {
+            transform: scale(1.05);
+            background: #8b6441;
+        }
+
+        /* Overlay de Loading */
+        #loader {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(244, 228, 188, 0.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            display: none;
+        }
+
+        .spinner {
+            width: 50px; height: 50px;
+            border: 5px solid #a67c52;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+    <div id="book-container">
+        <div id="visual-side">
+            <img id="scene-image" src="" alt="Cena">
+        </div>
+        <div id="text-side">
+            <div id="story-text"></div>
+            <div id="choices-container"></div>
+        </div>
+
+        <div id="loader">
+            <div class="spinner"></div>
+            <p id="loader-msg">NAO está pensando...</p>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = "http://192.168.x.x:5000"; // IP do Servidor IA (CABEADO)
+        const ROBOT_URL = "http://localhost:8080"; // Este PC (WIFI + Conectado ao NAO)
+
+        let currentSession = null;
+
+        async function speakNAO(text) {
+            try {
+                await fetch(`${ROBOT_URL}/speak`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text })
+                });
+            } catch (e) { console.error("Erro ao falar com NAO", e); }
+        }
+
+        function updateScene(data) {
+            // 1. Inicia Ken Burns Effect na imagem
+            const img = document.getElementById('scene-image');
+            img.src = `http://192.168.x.x:5000/get_image/${data.prompts_imagens[0]}`; // Ajustar rota de imagem se necessário
+            
+            gsap.fromTo(img, { scale: 1.1, x: -20 }, { scale: 1.3, x: 20, duration: 15, ease: "sine.inOut" });
+
+            // 2. Animação de Texto
+            const textEl = document.getElementById('story-text');
+            textEl.innerText = data.historia_original;
+            gsap.to(textEl, { opacity: 1, y: -20, duration: 1.5, delay: 0.5 });
+
+            // 3. Trigger NAO Speech
+            speakNAO(data.fala_robo);
+
+            // 4. Mostra opções após delay
+            const choicesEl = document.getElementById('choices-container');
+            choicesEl.innerHTML = '';
+            data.opcoes.forEach((opt, i) => {
+                const btn = document.createElement('button');
+                btn.className = 'choice-btn';
+                btn.innerText = opt;
+                btn.onclick = () => makeChoice(i, opt);
+                choicesEl.appendChild(btn);
+            });
+            gsap.to(choicesEl, { opacity: 1, duration: 1, delay: 3 });
+        }
+
+        async function startStory() {
+            document.getElementById('loader').style.display = 'flex';
+            const res = await fetch(`${API_URL}/iniciar_historia`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ nome: "Criança", tema: "Sertão Cordel", skill: "socializacao" })
+            });
+            const data = await res.json();
+            currentSession = data.session_id;
+            document.getElementById('loader').style.display = 'none';
+            updateScene(data);
+        }
+
+        async function makeChoice(idx, text) {
+            gsap.to(['#story-text', '#choices-container'], { opacity: 0, duration: 0.5 });
+            document.getElementById('loader').style.display = 'flex';
+            
+            const res = await fetch(`${API_URL}/escolher`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: currentSession, escolha_texto: text })
+            });
+            const data = await res.json();
+            document.getElementById('loader').style.display = 'none';
+            updateScene(data);
+        }
+
+        // Inicia automaticamente para teste
+        // window.onload = startStory;
+    </script>
+</body>
+</html>

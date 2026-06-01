@@ -1,0 +1,10 @@
+TEMA INICIAL: Menina jogando bola
+SEED: 530456334
+
+
+--- CENA 1 ---
+
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, (highly detailed background, background focus:1.3), (scenery, landscape:1.2), cinematic lighting, (in detailed location:1.4), solo,  (young anime child, modest outfit, wholesome, modest clothes, high collar, family friendly:1.2),  character appearing, neutral expression, wide shot
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, (highly detailed background, background focus:1.3), (scenery, landscape:1.2), cinematic lighting, (in detailed location:1.4), solo,  (young anime child, modest outfit, wholesome, modest clothes, high collar, family friendly:1.2),  character appearing, neutral expression, wide shot
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, (highly detailed background, background focus:1.3), (scenery, landscape:1.2), cinematic lighting, (in detailed location:1.4), solo,  (young anime child, modest outfit, wholesome, modest clothes, high collar, family friendly:1.2),  character appearing, neutral expression, wide shot

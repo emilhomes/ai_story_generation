@@ -1,0 +1,12 @@
+ALUNO: Pedro
+TEMA: Escola
+SKILL: coragem
+SEED: 511208946
+
+
+--- CENA 1 ---
+Pedro estava sentado em sua varanda, desfrutando de um dia ensolarado. Ele olhou para a escola vizinha e sorriu ao pensar nos amigos que faria lá amanhã. A brisa suave balançava as folhas das árvores, criando um som agradável que o fazia se sentir tranquilo. Pedro estava ansioso para compartilhar suas habilidades de arte com a classe e aprender algo novo. Enquanto ele pensava, ouviu o som de vozes animadas vindas da escola.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in escola vizinha, varanda de Pedro:1.1), (1boy, cabelo castanho escuro, estilo de roupa casual, anime style:1.3),  Pedro olha para a escola com um sorriso, calmo expression, plana, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in varanda de Pedro, escola vizinha:1.1), (1boy, cabelo castanho escuro, estilo de roupa casual, anime style:1.3),  Pedro pensa sobre compartilhar sua arte na classe, curioso expression, over-the-shoulder, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in escola vizinha, varanda de Pedro:1.1), (1boy, cabelo castanho escuro, estilo de roupa casual, anime style:1.3),  Pedro ouve as vozes animadas da escola, intrigado expression, plana, (highly detailed scenery:1.2)

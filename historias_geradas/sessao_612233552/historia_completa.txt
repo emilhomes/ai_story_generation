@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Escola
+SKILL: coragem
+SEED: 612233552
+
+
+--- CENA 1 ---
+Eduardo estava sentado em uma pequena praça ao ar livre, rodeada de árvores frondosas e flores coloridas. O sol brilhava suavemente no céu azul, criando um clima aconchegante. Ele sorriu enquanto observava as crianças brincar em volta dele. Sua mãe havia dito que ele poderia escolher qualquer atividade na Escola e ele estava ansioso para explorar todas as opções.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in uma pequena praça ao ar livre, rodeada de árvores frondosas e flores coloridas:1.1), (1boy, brown hair, casual clothing style, anime style:1.3),  Eduardo se levanta e observa as crianças brincar em volta dele., calmo expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in um parque de diversões vibrante e colorido:1.1), (1boy, brown hair, casual clothing style, anime style:1.3),  Eduardo olha para a direita, vendo o parque de diversões com montanhas-russas e brinquedos., excitado expression, medium shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in uma biblioteca tranquila e acolhedora:1.1), (1boy, brown hair, casual clothing style, anime style:1.3),  Eduardo olha para a esquerda, vendo a biblioteca com livros empilhados e uma janela aberta., curioso expression, close-up, (highly detailed scenery:1.2)

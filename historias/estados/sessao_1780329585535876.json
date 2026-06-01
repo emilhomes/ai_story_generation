@@ -1,0 +1,75 @@
+{
+  "session_id": "1780329585535876",
+  "student": {
+    "name": "Yasmim",
+    "focus_skill": "socializacao",
+    "theme": "Escola"
+  },
+  "current_step_idx": 2,
+  "blueprint": {
+    "steps": [
+      {
+        "id": "safe_intro",
+        "goal": "Introduce the main character and the environment in a warm, safe way.",
+        "emotion": "calm",
+        "cannot_happen": "conflict, danger, rejection",
+        "must_happen": "friendly atmosphere"
+      },
+      {
+        "id": "observe_character",
+        "goal": "The protagonist observes other characters performing an interesting activity.",
+        "emotion": "curiosity",
+        "cannot_happen": "pressure to act, bullying",
+        "must_happen": "visual validation of others"
+      },
+      {
+        "id": "small_interaction",
+        "goal": "A small and safe interaction (e.g., a wave, a smile, a simple question).",
+        "emotion": "gentleness",
+        "cannot_happen": "error, punishment, shame",
+        "must_happen": "positive response from the other character"
+      },
+      {
+        "id": "positive_feedback",
+        "goal": "The other character validates the interaction and invites the protagonist for something simple.",
+        "emotion": "mild joy",
+        "cannot_happen": "exclusion",
+        "must_happen": "invitation or acceptance"
+      },
+      {
+        "id": "shared_activity",
+        "goal": "Perform a short and pleasant joint activity.",
+        "emotion": "cooperation",
+        "cannot_happen": "aggressive competition",
+        "must_happen": "shared success"
+      },
+      {
+        "id": "warm_ending",
+        "goal": "Comfortable closure with the promise of meeting again.",
+        "emotion": "satisfaction",
+        "cannot_happen": "sadness of goodbye",
+        "must_happen": "feeling of 'I did it'"
+      }
+    ]
+  },
+  "history": [
+    {
+      "choice": "Explorar a biblioteca",
+      "step": "safe_intro"
+    },
+    {
+      "choice": "Procurar por uma história específica",
+      "step": "observe_character"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-06-01T12:59:45.535876",
+    "last_update": "2026-06-01T13:07:25.695390"
+  },
+  "personagens_globais": [
+    {
+      "nome": "Yasmim",
+      "descricao_visual": "1girl, curly brown hair, yellow dress, school uniform"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "session_id": "1780328104749606",
+  "student": {
+    "name": "Eduardo",
+    "focus_skill": "coragem",
+    "theme": "Escola"
+  },
+  "current_step_idx": 0,
+  "blueprint": {
+    "steps": [
+      {
+        "id": "safe_intro",
+        "goal": "Apresentar o personagem principal e o ambiente de forma acolhedora.",
+        "emotion": "calmo",
+        "cannot_happen": "conflito, perigo, rejeição",
+        "must_happen": "clima amigável"
+      },
+      {
+        "id": "observe_character",
+        "goal": "O protagonista observa outros personagens realizando uma atividade interessante.",
+        "emotion": "curiosidade",
+        "cannot_happen": "pressão para agir, bullying",
+        "must_happen": "validação visual"
+      },
+      {
+        "id": "small_interaction",
+        "goal": "Uma interação pequena e segura (ex: um aceno, um sorriso, uma pergunta simples).",
+        "emotion": "gentileza",
+        "cannot_happen": "erro, punição, vergonha",
+        "must_happen": "resposta positiva do outro personagem"
+      },
+      {
+        "id": "positive_feedback",
+        "goal": "O outro personagem valida a interação e convida para algo simples.",
+        "emotion": "alegria leve",
+        "cannot_happen": "exclusão",
+        "must_happen": "convite ou aceitação"
+      },
+      {
+        "id": "shared_activity",
+        "goal": "Realizar uma atividade conjunta curta e prazerosa.",
+        "emotion": "cooperação",
+        "cannot_happen": "competição agressiva",
+        "must_happen": "sucesso compartilhado"
+      },
+      {
+        "id": "warm_ending",
+        "goal": "Encerramento confortável com promessa de novo encontro.",
+        "emotion": "satisfação",
+        "cannot_happen": "tristeza de despedida",
+        "must_happen": "sentimento de 'eu consegui'"
+      }
+    ]
+  },
+  "history": [],
+  "metadata": {
+    "created_at": "2026-06-01T12:35:04.749606",
+    "last_update": "2026-06-01T12:35:04.749606"
+  },
+  "personagens_globais": [
+    {
+      "nome": "Eduardo",
+      "descricao_visual": "1boy, brown hair, big smile"
+    }
+  ]
+}

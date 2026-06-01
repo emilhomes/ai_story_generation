@@ -1,0 +1,10 @@
+TEMA INICIAL: Menina jogando bola
+SEED: 768631789
+
+
+--- CENA 1 ---
+Sorrindo, Yui corre para o playground de cores vibrantes.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, highly detailed background, beautiful scenery, nature, cinematic lighting, (in Um parque infantil colorido com escadinhas, areia e equipamentos de brinquedo.:1.3), solo,  (Curta cabelo castanho, sorriso radiante, uniforme escolar simples, wholesome, modest clothes:1.1),  Yui apanha uma bola de futebol e começa a jogá-la contra o muro do playground., Alegria expression, Close-up
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, highly detailed background, beautiful scenery, nature, cinematic lighting, (in O playground está cheio de crianças brincando e smiling.:1.3), solo,  (Curta cabelo castanho, sorriso radiante, uniforme escolar simples, wholesome, modest clothes:1.1),  Ela tenta chutar a bola para cima do muro, mas ela ricocheteia e ela laughs enquanto tenta pegá-la., Concentração expression, Medium shot
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, highly detailed background, beautiful scenery, nature, cinematic lighting, (in O sol brilha sobre o playground, iluminando a alegria das crianças.:1.3), solo,  (Curta cabelo castanho, sorriso radiante, uniforme escolar simples, wholesome, modest clothes:1.1),  Yui decide que está na hora de chamar seus amigos para jogar uma partida mais séria!, Excitamento expression, Wide shot

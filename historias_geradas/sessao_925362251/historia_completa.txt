@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Fantasia
+SKILL: socializacao
+SEED: 925362251
+
+
+--- CENA 1 ---
+Eduardo caminha suavemente pelo jardim da casa de sua avó, rodeado por flores coloridas e o som do rio ao fundo. Ele está procurando um lugar tranquilo para desenhar seus sonhos. Sua avó o convida a sentar-se à mesa da varanda com uma xícara de leite quente.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, anime style:1.3),  Eduardo estende os braços para abraçar uma árvore com folhas verdes. in jardim da casa de sua avó, com flores coloridas e o som do rio ao fundo, curious expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, anime style:1.3),  A avó oferece uma xícara de leite quente a Eduardo. in varanda da casa, com vista para o jardim, caring expression, close-up, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, anime style:1.3),  Eduardo senta-se à mesa da varanda e começa a desenhar. in varanda da casa, com vista para o jardim, happy expression, medium shot, (highly detailed scenery:1.2)

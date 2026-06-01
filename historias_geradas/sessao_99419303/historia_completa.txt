@@ -1,0 +1,12 @@
+ALUNO: Lucas
+TEMA: Escola
+SKILL: sentimentos
+SEED: 99419303
+
+
+--- CENA 1 ---
+Lucas walked into his new school with a mix of excitement and nerves. He looked around at the unfamiliar faces, trying to spot a friendly smile or two. As he made his way through the bustling hallway, the sound of chatter and laughter filled the air, making him feel a bit more at ease.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, blue eyes, school uniform,  Boy looking around at unfamiliar faces with a hint of caution, scanning the hallway for a friendly smile in busy school hallway, lockers, posters on walls, students chatting in small groups, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, blue eyes, school uniform,  Boy taking a seat on a bench near the classroom door, watching as students filter in and out of the room in cozy school classroom, colorful chairs, whiteboard with fun illustrations, natural light pouring in through the window, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, blue eyes, school uniform,  Close-up of the boy's face as he takes a deep breath, feeling more at ease as he looks around at his new surroundings in blurred background of students chatting and laughing in the hallway, with Lucas' smiling face taking center stage, hopeful expression, close-up, highly detailed scenery

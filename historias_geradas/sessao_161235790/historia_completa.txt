@@ -1,0 +1,10 @@
+TEMA INICIAL: Criança jogando bola
+SEED: 161235790
+
+
+--- CENA 1 ---
+Era um dia ensolarado e alegre em uma pequena praça do bairro. Uma criança, com cerca de 8 anos, chamada Luana, estava ansiosa para jogar futebol com seus amigos. Ela vestia uma camiseta branca e shorts azuis, com cabelos loiros curtos e um sorriso largo. Enquanto esperavam pela bola, Luana começou a dançar ao som de música que vinha de uma rádio próxima. Seu entusiasmo era contagiante, e seus amigos não puderam evitar sorrir. Logo, o jogo começou, e Luana mostrou-se um jogador habilidoso, dominando a bola com facilidade. No entanto, durante o jogo, ela se machucou levemente no joelho. Apesar do desconforto, Luana não queria parar e insistiu em continuar jogando. Sua determinação inspirou seus amigos, que também continuaram a jogar com força renovada.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in A sunny park with a green lawn and trees surrounding the playground.:1.1), (8yo, blond hair, blue shorts, school uniform:1.3),  Luana kicks the ball and it soars through the air., Joyful expression, Medium shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in A grassy area of the park with Luana lying down and her friends gathered around.:1.1), (8yo, blond hair, blue shorts, school uniform:1.3),  Luana falls to the ground, clutching her knee in pain., Painful expression, Close-up, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, (vibrant colors:1.2), (in The same park setting as before, with Luana now back on her feet and playing with her friends.:1.1), (8yo, blond hair, blue shorts, school uniform:1.3),  Luana gets up, dusts herself off, and continues playing., Determined expression, Wide shot, (highly detailed scenery:1.2)

@@ -1,0 +1,11 @@
+TEMA INICIAL: John entra numa escola nova
+SEED: 401637396
+
+
+--- CENA 1 ---
+John estava nervoso. Era o primeiro dia na Escola das Estrelas, e ele nunca tinha ido para uma escola nova antes. Sua mochila parecia pesada, e seu coração batia forte. Ele esperava que seus novos amigos fossem legais e que a escola fosse divertida!”,
+  
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: the character appears, neutral expression, (Um menino de 7 anos com cabelo castanho e olhos azuis:1.2),  in location, wide shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_1.png] Prompt: the character moves, neutral expression, (Um menino de 7 anos com cabelo castanho e olhos azuis:1.2),  in location, medium shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_2.png] Prompt: the character smiles, happy expression, (Um menino de 7 anos com cabelo castanho e olhos azuis:1.2),  in location, close-up-up, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render

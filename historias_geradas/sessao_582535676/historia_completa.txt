@@ -1,0 +1,19 @@
+TEMA INICIAL: Menino jogando bola
+SEED: 582535676
+
+
+--- CENA 1 ---
+Kaito está com a bola (A). Ele procura amigos (B). Sua mãe o observa sorrindo (C).
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  boy holding a soccer ball, excited expression, in sunny park, medium shot, looking at viewer
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  boy looking around searching, curious expression, in park trees, wide shot, looking at viewer
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  beautiful woman, long brown hair, wearing a sun dress,  woman sitting under a tree shadow, smiling, happy expression, in shady spot in park, medium shot, looking at viewer
+
+ESCOLHA DO USUÁRIO: Continuar
+
+--- CENA 2 ---
+Kaito continua sua busca por amigos, caminhando pelo parque local. Ele passa por uma área de brinquedos e vê crianças brincando em um playground. De repente, ele ouve risadas e gritos de alegria vindos da direção oposta.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  Kaito looks em volta para localizar o barulho, curiosidade expression, in parque, panorâmica, looking at viewer
+[IMAGEM: cena_2_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  Kaito vê um grupo de crianças brincando no playground, amizade expression, in playground, medium shot, looking at viewer
+[IMAGEM: cena_2_quadro_3.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  beautiful woman, long brown hair, wearing a sun dress,  A mãe observa Kaito com um sorriso na boca, enquanto se senta em uma grade próxima, satisfação expression, in parque, plano geral, looking at viewer

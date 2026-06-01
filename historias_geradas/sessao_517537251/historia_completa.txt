@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Sertão Cordel
+SKILL: coragem
+SEED: 517537251
+
+
+--- CENA 1 ---
+Eduardo, um jovem com cabelos castanhos e uma camisa azul, acorda cedo no sertão, sentindo o sol quente do amanhecer. Ele olha ao redor e sorrir, sabendo que tem um dia cheio de trabalho à frente. Com uma mochila nas costas, ele se prepara para enfrentar as atividades do dia. Sua casa é simples, mas confortável, com um jardim bem cuidado onde crescem muitas plantas frutas. Nesse ambiente tranquilo, Eduardo começa a refletir sobre suas metas e sonhos.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, blue shirt, anime style:1.3),  Eduardo acorda e se levanta da cama, esticando os braços ao alto. in Uma casa simples no sertão com um jardim bem cuidado., happy expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, blue shirt, anime style:1.3),  Ele se dirige à cozinha para preparar o café da manhã, abrindo a geladeira e pegando ovos e pão. in A cozinha é espaçosa com móveis simples mas funcionais., curious expression, medium shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2),  Enquanto espera o café, ele olha pela janela para o sol nascer sobre as plantas do jardim. in Um jardim tranquilo com várias plantas frutas e flores, refletindo a luz do sol., calm expression, close-up, (highly detailed scenery:1.2)

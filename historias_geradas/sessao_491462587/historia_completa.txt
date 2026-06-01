@@ -1,0 +1,10 @@
+TEMA INICIAL: Criança na escola
+SEED: 491462587
+
+
+--- CENA 1 ---
+A pequena Sofia estava um pouco nervosa antes do primeiro dia de escola. Ela tinha um novo casaco azul e um mochila cheia de lápis de cor e um bichinho de pelúcia chamado Pipoca. Na escola, ela conheceu Lucas, um menino com cabelos castanhos e um sorriso enorme, e juntos eles fizeram amigos e aprenderam muitas coisas novas. No final do dia, Sofia não estava mais nervosa, ela estava radiante e ansiosa para voltar para a escola no dia seguinte.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: Sofia entra na classroom, olhando ao redor com curiosidade, segurando Pipoca com força. A câmera mostra a classroom com crianças brincando e desenhando., nervous expression, (A pequena Sofia tem cabelos castanhos encaracolados:1.2),  in Uma classroom colorida com mesas e cadeiras, quadros e desenhos nas paredes., wide shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_1.png] Prompt: Sofia e Lucas estão sentados juntos, desenhando um dragão colorido. Lucas está rindo, e Sofia está smiling também. A câmera mostra os dois concentrados em seus desenhos., excited expression, (A pequena Sofia tem cabelos castanhos encaracolados:1.2), (Lucas é um menino com cabelos castanhos curtos:1.2),  in A mesma classroom, com as crianças trabalhando em seus projetos de arte., medium shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_2.png] Prompt: close-up-up do rosto de Sofia, com um sorriso radiante enquanto ela mostra seu desenho para Lucas. A câmera foca nos olhos brilhantes de Sofia., joyful expression, (A pequena Sofia tem cabelos castanhos encaracolados:1.2),  in A classroom, com as crianças reunidas em torno de seus trabalhos., close-up-up, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render

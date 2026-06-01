@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Escola
+SKILL: coragem
+SEED: 888648216
+
+
+--- CENA 1 ---
+Eduardo era um menino alegre e curioso que morava em uma pequena cidade próxima à praia. Ele adorava explorar os arredores da sua casa, descobrir novos lugares e fazer amigos. Um dia, enquanto brincava no quintal, ele encontrou um livro abandonado debaixo de uma árvore. O livro era velho e tinha páginas amareladas, mas Eduardo sentiu que ele poderia ser especial.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, big smile:1.3),  Eduardo encontra o livro abandonado debaixo de uma árvore in um quintal verde e cheio de flores, com algumas árvores ao redor, curiosity expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, big smile:1.3),  Eduardo olha para o livro com interesse, tentando descobrir seu segredo in um ambiente tranquilo e aconchegante, com som de pássaros ao fundo, excitement expression, close-up, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1boy, brown hair, big smile:1.3),  Eduardo começa a abrir o livro, sentindo que há algo especial dentro dele in um ambiente iluminado e acolhedor, com som de vento ao fundo, hope expression, low angle, (highly detailed scenery:1.2)

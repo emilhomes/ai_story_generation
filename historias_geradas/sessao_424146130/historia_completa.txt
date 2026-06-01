@@ -1,0 +1,10 @@
+TEMA INICIAL: Menino jogando bola
+SEED: 424146130
+
+
+--- CENA 1 ---
+
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: Pedro, 7 year old boy, curly brown hair, large round glasses, green hoodie, blue jeans, red backpack, the character appears, neutral expression, in location, wide shot, Pixar 3D animation style, Disney movie, 3D render, Unreal Engine 5, Octane Render, 8k, masterpiece, highly detailed, soft studio lighting, vibrant colors, consistent character design, high resolution, professional lighting
+[IMAGEM: cena_1_quadro_1.png] Prompt: Pedro, 7 year old boy, curly brown hair, large round glasses, green hoodie, blue jeans, red backpack, the character moves, neutral expression, in location, medium shot, Pixar 3D animation style, Disney movie, 3D render, Unreal Engine 5, Octane Render, 8k, masterpiece, highly detailed, soft studio lighting, vibrant colors, consistent character design, high resolution, professional lighting
+[IMAGEM: cena_1_quadro_2.png] Prompt: Pedro, 7 year old boy, curly brown hair, large round glasses, green hoodie, blue jeans, red backpack, the character smiles, happy expression, in location, close-up-up, Pixar 3D animation style, Disney movie, 3D render, Unreal Engine 5, Octane Render, 8k, masterpiece, highly detailed, soft studio lighting, vibrant colors, consistent character design, high resolution, professional lighting

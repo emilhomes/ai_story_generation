@@ -1,0 +1,30 @@
+ALUNO: Yasmim
+TEMA: Escola
+SKILL: socializacao
+SEED: 714281326
+
+
+--- CENA 1 ---
+Yasmim entrou na escola com um sorriso no rosto. Ela viu a sala de aula cheia de livros e quadros coloridos, e sentiu-se em casa. Com uma sensação de calma, ela começou a explorar o ambiente, descobrindo novos objetos e lugares.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl walking slowly through the classroom door, looking around with a calm expression in sunny classroom, colorful posters, bookshelves filled with educational books, students working on their desks, curious expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl sitting at a desk, surrounded by pencils and paper, gazing out the window at the school garden in bright classroom with natural light pouring in through the windows, trees swaying gently outside, birds chirping, contemplative expression, medium shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Close-up of the girl's face showing a peaceful, happy expression as she discovers a new book on her shelf in blurred background of classroom activity, books and papers scattered around Yasmim's desk, excited expression, close-up, (highly detailed scenery:1.2)
+
+ESCOLHA DO USUÁRIO: Explorar a biblioteca
+
+--- CENA 2 ---
+Yasmim está satisfeita com a escolha de explorar a biblioteca, pois sempre foi fascinada por histórias e aventuras. Ela caminha lentamente pelas prateleiras, observando as capas dos livros e imaginando os mundos que contêm. O som das páginas viradas e o cheiro da tinta fresca criam um ambiente acolhedor.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl walking down the center aisle of a library, scanning shelves for interesting titles in cozy library atmosphere, soft lighting, rows of bookshelves stretching up to the ceiling, curious expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_2_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Close-up of a girl's hands carefully opening a book, revealing colorful illustrations and engaging text in blurred background of library patrons studying or browsing through books, excited expression, close-up, (highly detailed scenery:1.2)
+[IMAGEM: cena_2_quadro_3.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl sitting at a reading table, surrounded by stacks of books and papers, intensely focused on a particular story in quiet library corner, comfortable seating, natural light filtering through the windows, immersed expression, medium shot, (highly detailed scenery:1.2)
+
+ESCOLHA DO USUÁRIO: Procurar por uma história específica
+
+--- CENA 3 ---
+Yasmim estava procurando por uma história na biblioteca escolar com um olhar curioso. Ela passou pela seção de livros infantis, onde as imagens coloridas chamavam sua atenção. Com um sorriso tímido, ela começou a caminhar em direção à estante, pronto para descobrir uma nova aventura.
+
+[IMAGEM: cena_3_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl walking slowly through the library's fiction section, scanning shelves for a specific title in cozy library atmosphere, soft lighting, rows of books on wooden shelves, comfortable reading chairs in the background, curious expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_3_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Close-up of girl's face, eyes scanning book titles as she searches for a specific story in blurred background of library shelves and chairs, with the girl's hands gently flipping through pages in the foreground, focused expression, close-up, (highly detailed scenery:1.2)
+[IMAGEM: cena_3_quadro_3.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, curly brown hair, yellow dress, school uniform:1.3),  Girl sitting comfortably on a reading chair, surrounded by books, with a look of gentle concentration in warm library atmosphere, soft lighting, comfortable reading chairs, and bookshelves in the background, gentle expression, medium shot, (highly detailed scenery:1.2)

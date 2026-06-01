@@ -1,0 +1,19 @@
+TEMA INICIAL: Menino jogando bola
+SEED: 905232175
+
+
+--- CENA 1 ---
+O menino, chamado de Kaito, está no parque ao sol e está ansioso para jogar futebol. Ele olha em volta procurando por amigos para dividir o jogo com ele. Enquanto isso, sua mãe está sentada na sombra, observando seu filho com um sorriso caloroso.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  boy running happily through the park, arms outstretched, excited expression, in sunny park with many trees and green grass, wide shot, full body, looking at viewer
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  boy kicking a colorful soccer ball on the grass field, motion blur, focused expression, in park playground with swings and slides, medium shot, full body, looking at viewer
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  boy smiling at camera, holding his favorite soccer ball, joyful expression, in park bench with a view of the park, close-up, full body, looking at viewer
+
+ESCOLHA DO USUÁRIO: Encontrar amigos
+
+--- CENA 2 ---
+
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  character appearing, neutral expression, in location, wide shot, full body, looking at viewer
+[IMAGEM: cena_2_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  character moving, neutral expression, in location, medium shot, full body, looking at viewer
+[IMAGEM: cena_2_quadro_3.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, 1boy, solo,  young boy, wearing blue t-shirt and shorts, messy brown hair, age 8,  character smiling, happy expression, in location, close-up, full body, looking at viewer

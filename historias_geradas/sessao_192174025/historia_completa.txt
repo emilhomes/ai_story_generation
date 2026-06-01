@@ -1,0 +1,19 @@
+TEMA INICIAL: Menino jogando bola
+SEED: 192174025
+
+
+--- CENA 1 ---
+Kaito está com a bola (A). Ele procura amigos (B). Sua mãe o observa sorrindo (C).
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  boy holding a soccer ball, excited expression, in sunny park, medium shot, looking at viewer
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  boy looking around searching, curious expression, in park trees, wide shot, looking at viewer
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  beautiful woman, long brown hair, wearing a sun dress,  woman sitting under a tree shadow, smiling, happy expression, in shady spot in park, medium shot, looking at viewer
+
+ESCOLHA DO USUÁRIO: Continuar
+
+--- CENA 2 ---
+
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  character appearing, neutral expression, in location, wide shot, looking at viewer
+[IMAGEM: cena_2_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  character moving, neutral expression, in location, medium shot, looking at viewer
+[IMAGEM: cena_2_quadro_3.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, solo,  young boy, short blue hair, red t-shirt,  character smiling, happy expression, in location, close-up, looking at viewer

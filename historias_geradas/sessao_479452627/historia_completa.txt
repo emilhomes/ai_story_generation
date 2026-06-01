@@ -1,0 +1,12 @@
+ALUNO: Maria
+TEMA: Escola
+SKILL: socializacao
+SEED: 479452627
+
+
+--- CENA 1 ---
+Maria chegou na escola com um sorriso no rosto. Ela viu as flores coloridas no jardim e sentiu o cheiro doce das rosas. Com um passo leve, ela começou a caminhar em direção à porta da escola, pronta para conhecer seus novos amigos.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, long hair, yellow dress, school uniform:1.3),  appearing in location, neutral expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, long hair, yellow dress, school uniform:1.3),  appearing in location, neutral expression, wide shot, (highly detailed scenery:1.2)
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, rating_safe, (vibrant colors:1.2), (1girl, long hair, yellow dress, school uniform:1.3),  appearing in location, neutral expression, wide shot, (highly detailed scenery:1.2)

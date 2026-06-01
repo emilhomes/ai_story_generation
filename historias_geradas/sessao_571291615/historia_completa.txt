@@ -1,0 +1,10 @@
+TEMA INICIAL: John entra na escola
+SEED: 571291615
+
+
+--- CENA 1 ---
+John estava nervoso! Hoje era o primeiro dia de escola e ele nunca tinha estado em um lugar tão grande. Sua mãe, Maria, o abraçou forte e disse: 'Vai ser divertido, meu amor! Você vai fazer muitos amigos e aprender coisas incríveis!' John respirou fundo, pegou sua mochila nova e, com um sorriso tímido, entrou na escola. A escola era colorida e cheia de crianças brincando e se divertindo, e John logo se sentiu mais animado.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: John walks hesitantly towards the school entrance, clutching his backpack. The camera pans out to show a colorful school building and excited children playing., nervous expression, (A boy with brown hair:1.2),  in A bright, sunny schoolyard with colorful buildings and children playing., wide shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_1.png] Prompt: John and Maria stand at the entrance, Maria hugging John tightly. The camera focuses on their faces, showing affection and support. Children are laughing in the background., supportive expression, (A boy with brown hair:1.2), (A woman with long:1.2),  in The school entrance, with a friendly teacher waving., medium shot, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render
+[IMAGEM: cena_1_quadro_2.png] Prompt: John takes a deep breath and smiles, stepping into the school. The camera zooms in on John's face, capturing his first moment of excitement., excited expression, (A boy with brown hair:1.2),  in The school hallway, filled with children and colorful posters., close-up-up, Pixar 3D style, Disney movie, cinematic lighting, vibrant colors, highly detailed, 8k render

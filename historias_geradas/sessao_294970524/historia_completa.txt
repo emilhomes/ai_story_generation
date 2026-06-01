@@ -1,0 +1,10 @@
+TEMA INICIAL: Menino brincando de bola
+SEED: 294970524
+
+
+--- CENA 1 ---
+Pedro adorava brincar de bola no parque! Ele tinha uma bola de futebol colorida e passava horas chutando, correndo e fazendo amigos. Hoje, o sol brilhava forte e o parque estava cheio de crianças rindo e se divertindo. Pedro estava tão animado que não conseguia parar de correr e tentar fazer um gol!
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, A cheerful boy with bright eyes and a big smile,  kicking ball, excited expression, in sunny park, wide shot
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, A cheerful boy with bright eyes and a big smile,  running with ball, happy expression, in green grass, medium shot
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, score_7_up, source_anime, masterpiece, anime style, vibrant colors, A cheerful boy with bright eyes and a big smile,  smiling, joyful expression, in playground, close-up-up

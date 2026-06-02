@@ -1,0 +1,11 @@
+ALUNO: Jade
+TEMA: Fundo do Mar
+SKILL: sentimentos
+SEED: 966326798
+
+
+--- CENA 1 ---
+Jade mergulhou na água cristalina e se sentiu em casa. Ela nadou até a praia de coral, onde encontrou um tesouro escondido entre as algas.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, long brown hair, blue swimsuit, snorkeling gear, Girl swimming slowly towards the coral reef, looking around with a calm smile, curious expression, wide shot, vibrant underwater world, colorful coral reef, schools of friendly fish, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, long brown hair, blue swimsuit, snorkeling gear, Girl standing near a treasure chest, opening it with a smile and revealing glittering jewels inside, happy expression, medium shot, vibrant underwater world, coral reef, friendly fish swimming around the treasure chest, consistent character design, same character throughout story, on-model

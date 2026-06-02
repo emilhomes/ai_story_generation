@@ -1,0 +1,11 @@
+ALUNO: Mário
+TEMA: Floresta Encantada
+SKILL: coragem
+SEED: 687878892
+
+
+--- CENA 1 ---
+Mário entrou na floresta encantada com um sorriso no rosto. Ele viu as árvores brilhantes e os animais falantes, e respirou fundo, sentindo o aroma das flores mágicas.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1boy, cute child, messy brown hair, green shirt, backpack with a compass, Boy walking through the forest entrance, looking around in wonder at the glowing trees and fairy lights, curious expression, wide shot, dappled sunlight filtering through the leaves of towering trees, with sparkling fairy lights woven into the branches, a soft mist rising from the forest floor, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1boy, cute child, messy brown hair, green shirt, backpack with a compass, Boy standing near a talking rabbit, listening intently as it speaks in a gentle voice, calm expression, medium shot, a clearing surrounded by glowing mushrooms, with a soft carpet of moss and ferns, the rabbit sitting on a toadstool, consistent character design, same character throughout story, on-model

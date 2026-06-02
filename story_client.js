@@ -44,39 +44,52 @@ let SEED_SESSAO = Math.floor(Math.random() * 1000000000);
 let IMAGEM_REFERENCIA_GLOBAL = null; 
 
 // ============================================================
-// GERAÇÃO DE SEQUÊNCIA COM POLLINATIONS.AI
+// GERAÇÃO DE SEQUÊNCIA COM POLLINATIONS.AI (PARALELO + RETRY)
 // ============================================================
-async function gerarSequenciaStoryboard(promptsImagens, microcenasTextos, negativePrompt, numeroCena) {
-    console.log(`\n🎨 Gerando Storyboard - Cena ${numeroCena} (${microcenasTextos.length} quadros)`);
-
-    const seedCena = SEED_SESSAO; 
-
-    for (let i = 0; i < promptsImagens.length; i++) {
-        const promptAtual = promptsImagens[i];
-        const acaoTexto = microcenasTextos[i];
-
-        console.log(`   🎬 Quadro ${i + 1}: [${acaoTexto}]`);
-
-        // URL da Pollinations.ai
-        const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(promptAtual)}?width=1024&height=1024&seed=${seedCena}&nologo=true`;
-
+async function gerarComRetry(url, maxRetries = 2) {
+    let lastError = null;
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
         try {
             const response = await axios.get(url, { 
                 timeout: 180000,
                 responseType: 'arraybuffer'
             });
-
-            if (response.data) {
-                const nomeImg = `cena_${numeroCena}_quadro_${i + 1}.png`;
-                salvarImagem(response.data, nomeImg);
-                registrarLog(`[IMAGEM: ${nomeImg}] Prompt: ${promptAtual}`);
-            }
-
-            console.log(`      ✅ Quadro ${i + 1} concluído.`);
+            return response.data;
         } catch (err) {
-            console.log(`      ❌ Erro no Quadro ${i + 1}:`, err.message);
+            lastError = err;
+            if (attempt < maxRetries) {
+                console.log(`      ⚠️ Tentativa ${attempt + 1} falhou. Retentando em 3s...`);
+                await new Promise(res => setTimeout(res, 3000));
+            }
         }
     }
+    throw lastError;
+}
+
+async function gerarSequenciaStoryboard(promptsImagens, microcenasTextos, negativePrompt, numeroCena) {
+    console.log(`\n🎨 Gerando Storyboard em paralelo - Cena ${numeroCena} (${microcenasTextos.length} quadros)`);
+
+    const seedCena = SEED_SESSAO; 
+
+    const promessas = promptsImagens.map(async (promptAtual, i) => {
+        const acaoTexto = microcenasTextos[i];
+        const quadroNum = i + 1;
+        const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(promptAtual)}?width=768&height=768&seed=${seedCena}&nologo=true`;
+
+        try {
+            const buffer = await gerarComRetry(url);
+            if (buffer) {
+                const nomeImg = `cena_${numeroCena}_quadro_${quadroNum}.png`;
+                salvarImagem(buffer, nomeImg);
+                registrarLog(`[IMAGEM: ${nomeImg}] Prompt: ${promptAtual}`);
+                console.log(`      ✅ Quadro ${quadroNum} concluído: [${acaoTexto}]`);
+            }
+        } catch (err) {
+            console.log(`      ❌ Erro no Quadro ${quadroNum} após tentativas:`, err.message);
+        }
+    });
+
+    await Promise.all(promessas);
 }
 
 // ============================================================
@@ -237,20 +250,17 @@ async function gerarPrimeiroQuadro(promptImagem, microcenaTexto, negativePrompt)
     const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(promptImagem)}?width=768&height=768&seed=${SEED_SESSAO + 1}&nologo=true`;
 
     try {
-        const response = await axios.get(url, { 
-            timeout: 120000,
-            responseType: 'arraybuffer'
-        });
+        const buffer = await gerarComRetry(url);
 
-        if (response.data) {
+        if (buffer) {
             // Salva fisicamente
-            salvarImagem(response.data, "cena_1_referencia_global.png");
+            salvarImagem(buffer, "cena_1_referencia_global.png");
             registrarLog(`[IMAGEM: cena_1_referencia_global.png] Prompt: ${promptImagem}`);
 
             console.log(`      ✅ Quadro de referência gerado e salvo!`);
         }
     } catch (err) {
-        console.log(`      ❌ Erro ao gerar quadro de referência.`, err.message);
+        console.log(`      ❌ Erro ao gerar quadro de referência após tentativas:`, err.message);
     }
 }
 

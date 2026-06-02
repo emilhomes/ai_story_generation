@@ -6,6 +6,16 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ESTADOS_DIR = os.path.join(BASE_DIR, "..", "historias", "estados")
 os.makedirs(ESTADOS_DIR, exist_ok=True)
 
+CENARIOS_POR_TEMA = {
+    "Escola": "a sunny and colorful school with playground, classrooms and gardens",
+    "Floresta Encantada": "a magical enchanted forest with glowing trees, talking animals and fairy lights",
+    "Fundo do Mar": "a vibrant underwater world with coral reefs, friendly fish and treasure chests",
+    "Fazenda e Animais": "a warm and cozy farm with friendly animals, barns and sunflower fields",
+    "Espaço": "a colorful outer space with friendly planets, stars and a small rocket",
+    "Parque de Diversões": "a joyful amusement park with carousels, roller coasters and cotton candy",
+    "Fantasia": "a magical fantasy kingdom with castles, dragons and enchanted forests"
+}
+
 # ============================================================
 # BLUEPRINTS NARRATIVOS (A ESTRUTURA REAL)
 # ============================================================
@@ -109,9 +119,12 @@ class StateManager:
             return None
             
         step = state["blueprint"]["steps"][idx]
+        cenario_tema = CENARIOS_POR_TEMA.get(state["student"]["theme"], "a colorful and friendly world")
+
         return {
             "student_name": state["student"]["name"],
             "theme": state["student"]["theme"],
+            "theme_setting": cenario_tema,
             "current_step": step["id"],
             "goal": step["goal"],
             "emotion": step["emotion"],

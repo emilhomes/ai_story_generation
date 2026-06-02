@@ -101,7 +101,9 @@ Output: Valid JSON only.
 ### CURRENT STORY TASK ###
 Student: {contexto['student_name']}
 Character must stay visually consistent across ALL scenes. Always reuse exact same descricao_visual for the same character.
+CRITICAL: Never change the character's appearance. Reuse exact same hair, clothes and features from the first scene.
 Theme: {contexto['theme']}
+Setting: {contexto['theme_setting']}
 Step: {contexto['current_step']}
 Goal: {contexto['goal']}
 Emotion: {contexto['emotion']}
@@ -159,6 +161,10 @@ def iniciar():
     # Atualiza personagens na sessão (opcional, mas bom para consistência)
     state = manager.load_state(sid)
     state["personagens_globais"] = personagens
+    state["personagens_fixos"] = {
+        p["nome"].lower(): p["descricao_visual"] 
+        for p in personagens
+    }
     manager.save_state(sid)
     
     proc = processar_cena(cena_raw, personagens)
@@ -192,7 +198,15 @@ def escolher():
     prompt = montar_prompt_narrativo(ctx, historico_texto)
     cena_raw = gerar_json_seguro(prompt)
     
-    personagens = state.get("personagens_globais", [])
+    personagens_fixos = state.get("personagens_fixos", {})
+    personagens = cena_raw.get("personagens", [])
+
+    # Sobrescreve descricao_visual com a versão fixa da cena 1
+    for p in personagens:
+        nome_key = p["nome"].lower()
+        if nome_key in personagens_fixos:
+            p["descricao_visual"] = personagens_fixos[nome_key]
+
     proc = processar_cena(cena_raw, personagens)
 
     return jsonify({

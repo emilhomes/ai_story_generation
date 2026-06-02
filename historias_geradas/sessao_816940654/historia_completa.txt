@@ -1,0 +1,11 @@
+ALUNO: Lara
+TEMA: Espaço
+SKILL: sentimentos
+SEED: 816940654
+
+
+--- CENA 1 ---
+Lara estava no espaço sideral, cercada por planetas coloridos e estrelas brilhantes. Ela viajava em um pequeno foguete, com uma expressão calma no rosto.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, brown hair, blue spacesuit, big smile, Girl floating in zero gravity, looking out the window of a small spaceship with a calm expression, calm expression, wide shot, colorful outer space, friendly planets, stars, and a small rocket flying through the galaxy, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, brown hair, blue spacesuit, big smile, Close-up of the girl's face showing a bright, curious expression as she gazes out at the stars, curious expression, close-up, blurred background of space with planets and stars shining through the window, consistent character design, same character throughout story, on-model

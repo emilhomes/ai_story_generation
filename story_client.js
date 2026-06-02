@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 
 const SERVIDOR_FLASK = "http://localhost:5000";
-const FORGE_API_TXT2IMG = "http://127.0.0.1:7860/sdapi/v1/txt2img";
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -25,9 +24,8 @@ function prepararPastaSessao(seed) {
     console.log(`\n📂 Arquivos serão salvos em: ${PASTA_SESSAO}`);
 }
 
-function salvarImagem(base64, nomeArquivo) {
+function salvarImagem(buffer, nomeArquivo) {
     const filePath = path.join(PASTA_SESSAO, nomeArquivo);
-    const buffer = Buffer.from(base64, "base64");
     fs.writeFileSync(filePath, buffer);
 }
 
@@ -46,7 +44,7 @@ let SEED_SESSAO = Math.floor(Math.random() * 1000000000);
 let IMAGEM_REFERENCIA_GLOBAL = null; 
 
 // ============================================================
-// GERAÇÃO DE SEQUÊNCIA COM IP-ADAPTER
+// GERAÇÃO DE SEQUÊNCIA COM POLLINATIONS.AI
 // ============================================================
 async function gerarSequenciaStoryboard(promptsImagens, microcenasTextos, negativePrompt, numeroCena) {
     console.log(`\n🎨 Gerando Storyboard - Cena ${numeroCena} (${microcenasTextos.length} quadros)`);
@@ -59,30 +57,18 @@ async function gerarSequenciaStoryboard(promptsImagens, microcenasTextos, negati
 
         console.log(`   🎬 Quadro ${i + 1}: [${acaoTexto}]`);
 
-        const payloadTxt = {
-            prompt: promptAtual,
-            negative_prompt: negativePrompt || "",
-            steps: 28,                        
-            width: 768,
-            height: 768,
-            sampler_name: "DPM++ 2M Karras",
-            cfg_scale: 7.0,                   
-            seed: seedCena,
-            alwayson_scripts: {},
-            override_settings: {
-                "CLIP_stop_at_last_layers": 2
-            }
-        };
+        // URL da Pollinations.ai
+        const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(promptAtual)}?width=1024&height=1024&seed=${seedCena}&nologo=true`;
 
         try {
-            const response = await axios.post(FORGE_API_TXT2IMG, payloadTxt, { 
+            const response = await axios.get(url, { 
                 timeout: 180000,
-                responseType: 'json'
+                responseType: 'arraybuffer'
             });
 
-            if (response.data && response.data.images) {
+            if (response.data) {
                 const nomeImg = `cena_${numeroCena}_quadro_${i + 1}.png`;
-                salvarImagem(response.data.images[0], nomeImg);
+                salvarImagem(response.data, nomeImg);
                 registrarLog(`[IMAGEM: ${nomeImg}] Prompt: ${promptAtual}`);
             }
 
@@ -152,9 +138,9 @@ async function main() {
 
     const nome = await perguntar("Qual o nome da criança? ");
     
-    const temas = ["Escola", "Espaço", "Sertão Cordel", "Fantasia", "Fundo do Mar"];
+    const temas = ["Escola", "Floresta Encantada", "Fundo do Mar", "Fazenda e Animais", "Espaço", "Parque de Diversões", "Fantasia"];
     mostrarMenu("ESCOLHA O MUNDO", temas);
-    const temaIdx = parseInt(await perguntar("Selecione (1-5): ")) - 1;
+    const temaIdx = parseInt(await perguntar(`Selecione (1-${temas.length}): `)) - 1;
     const tema = temas[temaIdx] || "Escola";
 
     const skills = [
@@ -185,7 +171,7 @@ async function main() {
     console.log(dados.historia_original);
     registrarLog(`\n--- CENA ${contadorCena} ---\n${dados.historia_original}\n`);
 
-    // Primeira cena: gerar o primeiro quadro SEM IP-Adapter (referência)
+    // Primeira cena: gerar o primeiro quadro (referência)
     if (dados.prompts_imagens && dados.prompts_imagens.length > 0) {
         console.log("\n📸 Gerando imagem de referência...");
         await gerarPrimeiroQuadro(dados.prompts_imagens[0], dados.microcenas_textos[0], negative);
@@ -247,33 +233,18 @@ async function main() {
 async function gerarPrimeiroQuadro(promptImagem, microcenaTexto, negativePrompt) {
     console.log(`   🎬 Quadro REFERÊNCIA: [${microcenaTexto}]`);
 
-    const payloadTxt = {
-        prompt: promptImagem,
-        negative_prompt: negativePrompt || "",
-        steps: 25,
-        width: 768,
-        height: 768,
-        sampler_name: "DPM++ 2M Karras",
-        cfg_scale: 7.0,
-        seed: SEED_SESSAO + 1,
-        save_images: true,
-        send_images: true,
-        override_settings: {
-            "CLIP_stop_at_last_layers": 2
-        }
-    };
+    // URL da Pollinations.ai (usando seed + 1 para diferenciar levemente se necessário, ou manter consistente)
+    const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(promptImagem)}?width=768&height=768&seed=${SEED_SESSAO + 1}&nologo=true`;
 
     try {
-        const response = await axios.post(FORGE_API_TXT2IMG, payloadTxt, { 
+        const response = await axios.get(url, { 
             timeout: 120000,
-            responseType: 'json'
+            responseType: 'arraybuffer'
         });
 
-        if (response.data && response.data.images && response.data.images.length > 0) {
-            IMAGEM_REFERENCIA_GLOBAL = response.data.images[0];
-
+        if (response.data) {
             // Salva fisicamente
-            salvarImagem(IMAGEM_REFERENCIA_GLOBAL, "cena_1_referencia_global.png");
+            salvarImagem(response.data, "cena_1_referencia_global.png");
             registrarLog(`[IMAGEM: cena_1_referencia_global.png] Prompt: ${promptImagem}`);
 
             console.log(`      ✅ Quadro de referência gerado e salvo!`);

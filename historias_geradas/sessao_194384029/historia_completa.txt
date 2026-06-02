@@ -1,0 +1,21 @@
+ALUNO: Eduardo
+TEMA: Floresta Encantada
+SKILL: socializacao
+SEED: 194384029
+
+
+--- CENA 1 ---
+Eduardo entrou na Floresta Encantada com um sorriso no rosto. Ele estava ansioso para explorar os caminhos sinuosos e descobrir os segredos da floresta.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, brown hair, green shirt, backpack,  Boy walking along a winding forest path, looking around with wide eyes and a smile in sunny forest glade, tall trees, colorful wildflowers, soft grass underfoot, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, brown hair, green shirt, backpack,  Boy stopping in front of a large tree, running his hand over the trunk and looking up at the branches in dappled forest floor, sunlight filtering through leaves, bird songs filling the air, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, brown hair, green shirt, backpack,  Close-up of the boy's face showing a look of wonder as he discovers a hidden clearing in blurred background of forest foliage, sunlight shining through the trees, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Seguir o caminho principal
+
+--- CENA 2 ---
+Eduardo entrou na Floresta Encantada com um sorriso curioso no rosto. Ele viu seus amigos, Maria e Tomás, construindo uma estrutura de folhas e galhos perto do rio.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, brown hair, green shirt, backpack,  Boy standing behind his friends, watching them gather leaves and branches for a structure in sunny forest clearing, tall trees, colorful flowers, gentle stream running in the background, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of Maria's hands as she carefully places a large leaf on top of the structure in blurred background of forest trees, sunlight filtering through leaves, focused expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, brown hair, green shirt, backpack,  Boy (Eduardo) taking a step closer to the structure, looking at it with interest and wonder in vibrant forest scene, flowers, trees, and a small wooden bridge in the background, intrigued expression, medium shot, highly detailed scenery

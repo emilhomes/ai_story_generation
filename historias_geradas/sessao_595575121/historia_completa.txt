@@ -1,0 +1,21 @@
+ALUNO: Joana
+TEMA: Fantasia
+SKILL: coragem
+SEED: 595575121
+
+
+--- CENA 1 ---
+Joana walked into the enchanted forest with a curious smile on her face, surrounded by tall trees and colorful flowers that swayed gently in the breeze.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Girl walking slowly along a winding path, looking around with wonder and excitement, curious expression, wide shot, sunny forest glade, tall trees, colorful flowers, sunlight filtering through leaves, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_1_quadro_1.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Girl kneeling down to examine a delicate flower, gently touching its petals with her finger, calm expression, medium shot, vibrant forest garden, blooming wildflowers, soft grass beneath her knees, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_1_quadro_2.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Close-up of the girl's face showing a peaceful expression as she listens to the birds singing in the trees, happy expression, close-up, blurred background of forest foliage, sunlight casting dappled shadows on the ground, consistent character design, same character throughout story, on-model
+
+ESCOLHA DO USUÁRIO: Seguir um lagarto azul
+
+--- CENA 2 ---
+Joana estava curiosa para saber o que seus amigos estavam fazendo no pátio da escola. Ela observou enquanto eles seguiam um lagarto azul, que parecia estar dançando ao som de uma música mágica.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Girl standing behind a tree, peeking through the leaves to watch her friends following a blue lizard, curious expression, wide shot, sunny school playground, colorful slides, trees, and a bright blue sky with fluffy white clouds, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_2_quadro_2.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Close-up of the girl's face showing a puzzled expression as she tries to understand what her friends are doing, confused expression, close-up, blurred background of school children playing, with the blue lizard in focus, consistent character design, same character throughout story, on-model
+[IMAGEM: cena_2_quadro_3.png] Prompt: score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed, solo, 1girl, cute child, curly brown hair, green dress, flower crown, Girl crouching down to get a better look at the blue lizard, which is now perched on a rock and 'dancing' to an invisible beat, amused expression, medium shot, a vibrant and colorful school garden, with flowers and plants of all shapes and sizes surrounding the scene, consistent character design, same character throughout story, on-model

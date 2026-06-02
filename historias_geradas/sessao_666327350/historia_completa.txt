@@ -1,0 +1,15 @@
+ALUNO: Thalita
+TEMA: Fantasia
+SKILL: sentimentos
+SEED: 666327350
+
+
+--- CENA 1 ---
+Thalita entrou em um mundo de fantasia onde as árvores tinham folhas que brilhavam como estrelas e os animais cantavam músicas suaves. Ela se sentiu imediatamente em casa, cercada por uma atmosfera acolhedora.
+
+
+ESCOLHA DO USUÁRIO: Conhecer os animais
+
+--- CENA 2 ---
+Thalita was excited to explore the enchanted forest with her friends. They had heard stories about magical creatures living there, and she couldn't wait to see them for herself.
+

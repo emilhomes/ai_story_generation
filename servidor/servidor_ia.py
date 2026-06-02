@@ -17,8 +17,8 @@ os.makedirs(PASTA_HISTORIAS, exist_ok=True)
 # ============================================================
 # CONFIGURAÇÃO TOONYOU BETA 6 (Estilo Animação 3D / Pixar)
 # ============================================================
-ESTILO_TOONYOU = "masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting"
-NEGATIVE_TOONYOU = "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, (realistic, photorealistic:1.3)"
+ESTILO_TOONYOU = "score_9, score_8_up, masterpiece, best quality, 3d render, pixar style, disney style, cute cartoon character, vibrant colors, soft cinematic lighting, sharp focus, ultra detailed"
+NEGATIVE_TOONYOU = "score_1, score_2, score_3, lowres, bad anatomy, bad hands, extra fingers, missing fingers, deformed, disfigured, ugly, blurry, watermark, signature, text, realistic, photorealistic, multiple characters, clone, duplicate"
 
 def montar_prompt_microcena(cena, personagens_globais):
     nomes_presentes = [n.lower() for n in cena.get("personagens", [])]
@@ -33,7 +33,7 @@ def montar_prompt_microcena(cena, personagens_globais):
     cenario = cena.get('cenario', 'detailed colorful background')
 
     # Estrutura SD 1.5: Estilo + Personagem + Ação + Cenário + Tags extras
-    prompt = f"{ESTILO_TOONYOU}, {desc_txt} {acao} in {cenario}, {emocao} expression, {camera}, highly detailed scenery"
+    prompt = f"{ESTILO_TOONYOU}, solo, {desc_txt.strip().rstrip(',')}, {acao}, {emocao} expression, {camera}, {cenario}, consistent character design, same character throughout story, on-model"
     return prompt.strip()
 
 # ============================================================
@@ -100,6 +100,7 @@ Output: Valid JSON only.
 
 ### CURRENT STORY TASK ###
 Student: {contexto['student_name']}
+Character must stay visually consistent across ALL scenes. Always reuse exact same descricao_visual for the same character.
 Theme: {contexto['theme']}
 Step: {contexto['current_step']}
 Goal: {contexto['goal']}

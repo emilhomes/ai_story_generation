@@ -1,0 +1,21 @@
+ALUNO: Juliana
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780338867327123
+
+
+--- CENA 1 ---
+Juliana walked into her new school with a mix of excitement and nervousness. She looked around at the colorful posters on the walls and the friendly faces of her teachers.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Girl standing in front of a large, open classroom door, looking inside with curiosity in sunny school hallway, bright paint on the walls, lockers and classrooms, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Girl sitting at a desk in the classroom, looking through a book with a calm expression in cozy classroom setting, soft lighting, bookshelves and educational posters, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Girl walking down the hallway with her teacher, smiling and chatting with her in friendly school atmosphere, students playing in the background, teachers supervising, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Falar com a professora
+
+--- CENA 2 ---
+Juliana está sentada em sua carteira, observando seus colegas de turma brincando no pátio da escola. Ela vê um grupo de crianças construindo uma grande estrutura com blocos de madeira.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Girl sitting on bench, watching group of children building with wooden blocks in the playground in sunny school playground, colorful slides, trees, and a large block structure under construction, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Close-up of the girl's face showing concentration as she observes the building process in blurred background of children playing, with a focus on the block structure and the girl's face, engaged expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, yellow dress, school uniform,  Girl standing next to the block structure, looking up at it with a mix of fascination and slight confusion in vibrant school playground, with the block structure towering above her, and other children playing in the background, intrigued expression, medium shot, highly detailed scenery

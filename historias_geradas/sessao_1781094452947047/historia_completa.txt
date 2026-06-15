@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781094452947047
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Você é assistente de Charles Babbage, um inventor frustrado com erros matemáticos nos tabulados marítimos. Ele olha para você e pergunta como reduzir esses erros.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage gestures to a large table with stacks of mathematical tables, his face etched with concern in A 19th century workshop with wooden tables, brass gears, and candles casting flickering shadows on the walls. Steam pipes hum in the background., frustrated expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Close-up of a page from the mathematical table, showing a series of incorrect calculations, Babbage's finger pointing at the mistake in Workshop background with tools and mechanical parts visible in the distance, stressed expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1 child, cute student, period-appropriate clothing,  João nods thoughtfully as he examines a brass gear, turning it over in his hands, looking for inspiration in A cluttered workshop with half-finished projects and scattered tools, the air thick with the smell of metal and oil, curious expression, medium shot, highly detailed scenery

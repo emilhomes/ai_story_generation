@@ -1,0 +1,21 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781093374647513
+
+
+--- CENA 1 ---
+Você está em Londres, 1837, como assistente de Charles Babbage. Ele olha para você com preocupação e pergunta: 'Como podemos reduzir esses erros nos tabelões matemáticos?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage looks at a large table of numbers with errors marked in red, his face contorted in frustration as he gestures to the mistakes in A 19th century workshop with wooden tables, brass gears, and steam pipes. Candles light up the room, casting shadows on the walls., frustrated expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Eduardo carefully examines a set of punch cards used for the Analytical Engine, his eyes widening as he understands their purpose in A wooden table with brass gears and mechanical parts surrounding it. The Analytical Engine's blueprints are scattered around., curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage points to a diagram of the Analytical Engine, explaining its components to Eduardo, who listens intently in A 19th century workshop with steam pipes and mechanical parts. The Analytical Engine's blueprints are displayed on a wooden table., engaged expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Construir uma máquina para calcular automaticamente
+
+--- CENA 2 ---
+Você está em Londres, 1843. Como assistente de Charles Babbage e colaborador de Ada Lovelace, você vê a visão inovadora da matemática e cientista. Ela olha para você e pergunta: 'O que acha?' sobre suas ideias de sequências de instruções.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Ada Lovelace gesturando enquanto explica suas ideias sobre sequências de instruções para Eduardo e Babbage in 19th century workshop, natural light coming through windows, papers and blueprints scattered around, inspirada expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up de Ada Lovelace apontando para uma página com notas e explicando a importância das sequências in workshop background, with books and papers on shelves, entusiasmada expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Eduardo e Babbage discutindo em voz baixa enquanto olham para as notas de Ada Lovelace, com expressões pensativas in workshop with tools and mechanical parts, steam coming from pipes in the background, pensativo expression, medium shot, highly detailed scenery

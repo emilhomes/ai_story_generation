@@ -1,0 +1,21 @@
+ALUNO: Juininho
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780433707953348
+
+
+--- CENA 1 ---
+Júlio chegou na escola com um sorriso no rosto. Ele viu os colegas brincando e respirou fundo, sentindo o perfume das flores no jardim.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, school uniform,  Boy walking through the school entrance, looking around at the colorful posters and banners in brightly lit school hallway, vibrant artwork on walls, lockers and classrooms, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, school uniform,  Boy standing in front of a bookshelf in the library, running his fingers over the spines of the books in cozy library with floor-to-ceiling shelves, soft reading lamps, and plush armchairs, dreamy expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, school uniform,  Boy sitting on a bench in the school courtyard, watching a group of children playing tag under the supervision of a teacher in sunny school courtyard with green grass, colorful playground equipment, and tall trees providing shade, relaxed expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Jogar com os amigos
+
+--- CENA 2 ---
+Juininho entrou na sala de aula e viu seus colegas trabalhando em um projeto de arte. Ele observou como eles pintavam, cortavam e colavam materiais com cuidado e criatividade.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Boy standing near a table with art supplies, looking at the other children's work with interest in sunny classroom, colorful artwork on walls, students sitting around tables with various materials, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of a girl carefully cutting a piece of paper into shapes for the art project in blurred background of other students working, focus on the scissors and paper in the girl's hands, concentrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Boy with messy black hair holding a paintbrush, looking up at Juininho with a big smile in vibrant classroom atmosphere, students laughing and chatting while working on their projects, friendly expression, medium shot, highly detailed scenery

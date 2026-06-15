@@ -1,0 +1,12 @@
+ALUNO: Emanoel
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781092431985703
+
+
+--- CENA 1 ---
+Você está em Londres em 1837, trabalhando como assistente de Charles Babbage. Ele está preocupado com os erros nos cálculos para as tabelas navais.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Charles Babbage stands intensely in front of a large brass calculating engine with rotating wheels, pointing at it as he discusses the errors in maritime tables, steam coming from copper pipes in the background. in A Victorian workshop with wooden tables cluttered with mechanical tools and oil lamps, blueprints on walls, and a sense of urgency in the air., intense concentration expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Emanoel holds a stack of punch cards, looking at them with curiosity near a brass gear mechanism, as if trying to understand their role in the Analytical Engine. in A workshop desk with mechanical tools and oil lamps, surrounded by papers and blueprints of the Analytical Engine., curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  A wide cinematic shot of the Analytical Engine, a massive brass machine with thousands of gears, glowing under the warm laboratory light as it processes data. in A spacious 19th-century laboratory with large windows and mahogany furniture, filled with the hum of machinery and the scent of oil and wood., awe expression, wide shot, highly detailed scenery

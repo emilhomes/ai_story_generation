@@ -1,0 +1,12 @@
+ALUNO: Emanoel
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 178109182340871
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Charles Babbage, o visionário inventor, precisa de sua ajuda para resolver um problema crucial. As tabelas matemáticas utilizadas pela Marinha estão repletas de erros, e ele suspeita que os 'computadores' humanos são a fonte do problema. Ele deseja criar uma máquina analítica capaz de realizar cálculos precisos e eficientes, mas precisa de alguém para ajudá-lo a superar esses obstáculos.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1human child, cute student, 19th century clothes, human being,  Emanoel is seated at a wooden desk in the Victorian laboratory, surrounded by papers and quills. Babbage stands beside him, pointing to a stack of mathematical tables. in Victorian laboratory with wooden desks and shelves filled with books and equipment, concerned expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  A close-up shot of the mathematical tables, highlighting the errors and mistakes made by human 'computers'. in Victorian laboratory with wooden desks and shelves filled with books and equipment, frustrated expression, macro, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  A close-up shot of the mathematical tables, highlighting the errors and mistakes made by human 'computers'. in Victorian laboratory with wooden desks and shelves filled with books and equipment, frustrated expression, macro, highly detailed scenery

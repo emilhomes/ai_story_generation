@@ -1,0 +1,21 @@
+ALUNO: Mário
+TEMA: Fantasia
+SKILL: socializacao
+SEED: 446221708
+
+
+--- CENA 1 ---
+Mário stepped into the enchanted forest with a sense of wonder in his heart. The soft sunlight filtering through the leaves above created dappled shadows on the forest floor, making him feel safe and curious.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Boy walking slowly through the forest, looking around with a wide-eyed expression, taking small steps to avoid disturbing the underbrush in sunny forest, tall trees, ferns, wildflowers, wooden bridge in the distance, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Boy crouching down to examine a small, delicate flower, gently touching its petals with his finger in vibrant forest floor, colorful wildflowers, soft sunlight filtering through the leaves above, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Close-up of the boy's face showing a peaceful, contemplative expression as he listens to the gentle sound of a nearby stream in blurred background of forest trees, with a small babbling brook in focus, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Follow Mário as he discovers a hidden clearing
+
+--- CENA 2 ---
+Mário seguiu o grupo de amigos que estavam explorando um caminho escondido atrás da escola. Eles estavam procurando por um lugar especial, e Mário estava ansioso para descobrir o que era.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Boy following a group of friends through the woods, looking around with wide eyes and a big smile in dappled sunlight filtering through the trees, a carpet of leaves underfoot, a winding path leading deeper into the forest, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Close-up of Mário's face as he bends down to examine a peculiar rock, his eyes lighting up with excitement in a rocky outcropping, moss-covered stones, ferns and wildflowers growing in the crevices, intrigued expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, adventurous child, messy brown hair, green t-shirt, jeans,  Boy standing at the edge of a clearing, looking around in awe as his friends reveal a hidden treasure: a beautiful, glowing waterfall in a lush, green valley, sunlight streaming through the trees, a misty veil rising from the waterfall's base, amazed expression, wide shot, highly detailed scenery

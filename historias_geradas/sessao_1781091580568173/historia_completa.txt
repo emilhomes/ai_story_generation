@@ -1,0 +1,12 @@
+ALUNO: Junior
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781091580568173
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabelões de navegação. Ele olha para você e pergunta como reduzir esses erros.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1human child, (human being:1.3), cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage está sentado à mesa de trabalho, olhando para os tabelões com erros, enquanto você (Junior) observa ao seu lado. in sala de trabalho do século XIX, com móveis antigos e iluminação a candeia, frustração e preocupação expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage aponta para um erro nos tabelões, olhando furioso, enquanto você (Junior) tenta entender o problema. in sala de trabalho do século XIX, com móveis antigos e iluminação a candeia, fúria e desespero expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1human child, (human being:1.3), cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Você (Junior) está sentado à mesa de trabalho, olhando para os planos da máquina analítica, enquanto Babbage observa ao seu lado. in sala de trabalho do século XIX, com móveis antigos e iluminação a candeia, curiosidade e esperança expression, medium shot, highly detailed scenery

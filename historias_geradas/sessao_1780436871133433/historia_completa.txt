@@ -1,0 +1,21 @@
+ALUNO: Juininho
+TEMA: Espaço
+SKILL: coragem
+SESSION_ID: 1780436871133433
+
+
+--- CENA 1 ---
+Juininho entrou na sala de aula com um sorriso no rosto e os olhos brilhantes. Ele viu as estrelas pintadas no teto e se sentiu em casa. O professor estava escrevendo algo no quadro, enquanto os colegas conversavam em pequenos grupos.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Boy walking into the classroom with a big smile on his face, looking around at the decorations and chatting with classmates in sunny classroom, colorful stars painted on the ceiling, bookshelves filled with books, students sitting in small groups, happy expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Close-up of the boy's face as he points to a star on the ceiling and says something to his friend in blurred background of students chatting, with the teacher writing on the board in the background, excited expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Boy sitting at his desk, looking up at the stars and taking a deep breath, feeling calm and relaxed in sunny classroom, with soft natural light filtering through the windows, students working quietly in the background, calm expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Observar as estrelas
+
+--- CENA 2 ---
+Juininho estava ansioso para explorar o novo planeta com seus amigos. Ele os observou enquanto eles mergulhavam em uma cratera, descobrindo fósseis de dinossauros.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Juininho and his friends walking towards the crater's edge, looking down into its depths with a mix of excitement and caution in barren planet surface, rocky terrain, distant mountains, blue sky, curious expression, medium wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Close-up of Juininho's face as he peers into the crater, eyes wide with wonder, while his friends examine the fósseis in the background in crater's interior, ancient rock formations, scattered fósseis, dim lighting, amazed expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, happy child, brown hair, blue shirt, school uniform,  Wide shot of the group gathered around a large fóssil, discussing and examining it with enthusiasm, while Juininho looks on with interest in crater's surface, rocky outcroppings, scattered equipment, clear blue sky, engaged expression, wide shot, highly detailed scenery

@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781524379238041
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabuleiros de navegação. Ele olha para você e pergunta como reduzir esses erros.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, Eduardo and Babbage are standing in front of a large wooden table with intricate brass gears and mechanical parts. Babbage is gesturing to a stack of papers with mathematical tables. in A 19th century workshop with steam pipes, candle light, and old machinery in the background., frustrated expression, wide shot, highly detailed scenery, solo
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints, Close-up of Babbage's face, looking stressed as he points to a mistake in one of the mathematical tables. His eyes are narrowed and his brow is furrowed. in The workshop background with tools and mechanical parts., concerned expression, close-up, highly detailed scenery, solo
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing and elderly man, 19th century suit, messy hair, holding blueprints, Eduardo is sitting at a wooden desk, surrounded by papers and quills. He's intently studying one of the mathematical tables, his brow furrowed in concentration. in A quiet corner of the workshop with old books and papers scattered around., determined expression, medium shot, highly detailed scenery, 2people

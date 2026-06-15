@@ -1,0 +1,9 @@
+ALUNO: Juliana
+TEMA: Cambridge
+SKILL: historia_computacao
+SESSION_ID: 178109987541293
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabulados marítimos. Ele olha para você e pergunta como reduzir esses erros.
+

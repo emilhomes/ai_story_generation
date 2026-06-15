@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781092537963561
+
+
+--- CENA 1 ---
+Você é o assistente de Charles Babbage em 1837, no coração do Londres vitoriano. O senhor Babbage está ansioso para resolver um problema que tem estado perturbando os navegadores durante anos: erros nos cálculos dos tabelões matemáticos. Ele acredita que sua máquina analítica pode ser a solução, mas precisa de alguém com habilidades precisas e paciência para ajudar a corrigir esses erros.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Charles Babbage pointing intensely at a large brass calculating engine with rotating wheels, steam coming from copper pipes in the background in Victorian workshop, candle light, cluttered wooden tables, blueprints on walls, intense concentration expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  The human student João holding a thick stack of punch cards, looking at them with curiosity near a brass gear mechanism in workshop desk with mechanical tools and oil lamps, curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  A wide cinematic shot of the Analytical Engine, a massive brass machine with thousands of gears, glowing under the warm laboratory light in spacious 19th century laboratory with large windows and mahogany furniture, awe expression, wide shot, highly detailed scenery

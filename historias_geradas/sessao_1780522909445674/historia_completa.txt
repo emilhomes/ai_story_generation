@@ -1,0 +1,21 @@
+ALUNO: João
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780522909445674
+
+
+--- CENA 1 ---
+João walked into the new school with a calm smile on his face. He looked around at the colorful classrooms and the vibrant garden, feeling happy to be there.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Boy slowly opens the gate of the school, looking around with a calm expression in sunny morning, colorful flowers in the garden, trees swaying gently in the breeze, calm expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Boy walks towards a small pond in the garden, observing the water lilies and fish swimming in tranquil school garden, blooming flowers, sunlight filtering through leaves, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Boy sits on a bench in the garden, watching a bird perched on a nearby branch in peaceful school environment, greenery, blue sky with a few white clouds, contemplative expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Encontrar um amigo
+
+--- CENA 2 ---
+João walked into the new school with a nervous feeling in his stomach. He saw his friends playing outside and took a deep breath, smelling the sweet scent of flowers from the garden.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Boy slowly approaches a group of children playing soccer, watching them with interest in sunny school playground, green grass, colorful goalposts, happy children laughing and running, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Boy sits on a bench near the garden, observing a group of students tending to plants, taking notes in a notebook in vibrant school garden, blooming flowers, sunlight filtering through leaves, gardening tools and seeds scattered around, engaged expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, blonde hair, blue shirt, school uniform,  Close-up of the boy's face showing a bright, hopeful expression as he watches a group of students working together on a puzzle in blurred background of school children playing and learning, wooden tables with puzzles and books scattered around, inspired expression, close-up, highly detailed scenery

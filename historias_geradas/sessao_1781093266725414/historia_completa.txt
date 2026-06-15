@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781093266725414
+
+
+--- CENA 1 ---
+Você caminha pelo laboratório de Charles Babbage em Londres, em 1837. O ar cheira a óleo e vapor, enquanto você observa os detalhes da máquina analítica que está sendo construída. Charles Babbage, um homem idoso com cabelo grisalho desleixado e vestindo um terno vitoriano, está preocupado.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, (clear human face:1.2), (distinct facial features:1.2),  Babbage pointing at a large brass calculating engine with intricate gears and levers in Victorian workshop, blueprints on walls, wooden cabinets filled with tools, focused expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, (clear human face:1.2), (distinct facial features:1.2),  The human student Eduardo looking at punch cards with curiosity, his eyes scanning the intricate patterns in workshop desk, surrounded by papers, quills, and inkwells, curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, (clear human face:1.2), (distinct facial features:1.2),  Wide shot of the complex brass gears of the Analytical Engine, with light reflecting off the polished metal surfaces in 19th century laboratory, with wooden beams and large windows admitting natural light, awe expression, wide shot, highly detailed scenery

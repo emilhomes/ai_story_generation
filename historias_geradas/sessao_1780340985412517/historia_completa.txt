@@ -1,0 +1,21 @@
+ALUNO: Edu
+TEMA: Fantasia
+SKILL: coragem
+SESSION_ID: 1780340985412517
+
+
+--- CENA 1 ---
+Edu stepped into the enchanted forest with a sense of wonder in his heart. The soft rustling of leaves beneath his feet and the warm sunlight filtering through the trees created a magical atmosphere.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Boy walking along a winding path, looking up at the towering trees with a sense of awe in sunny forest, tall trees, lush greenery, wildflowers blooming, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Boy sitting on a toadstool, gently touching the soft petals of a nearby flower in vibrant forest floor, colorful wildflowers, sunlight filtering through leaves, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Close-up of the boy's face showing a bright, hopeful expression as he discovers a hidden clearing in blurred background of forest trees, sunlight shining through the canopy, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Follow Edu as he discovers hidden wonders
+
+--- CENA 2 ---
+Edu walked into the enchanted forest, his eyes wide with wonder. He had heard stories of magical creatures living here, and he couldn't wait to see them for himself.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Boy crouching behind a tree, peeking through the leaves to watch other children playing with a group of fairies in sun-dappled forest floor, tall trees, sparkling fairy dust, colorful flowers, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Boy sitting on a toadstool, watching in awe as a unicorn prances by, its horn shining with a soft blue light in mushroom forest, tall fungi, twinkling fireflies, soft moonlight filtering through the trees, amazed expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, backpack,  Close-up of the boy's face, his eyes shining with excitement as he watches a group of mermaids playing in a nearby pond in sparkling water, lily pads, colorful fish swimming, sunlight reflecting off the ripples, delighted expression, close-up, highly detailed scenery

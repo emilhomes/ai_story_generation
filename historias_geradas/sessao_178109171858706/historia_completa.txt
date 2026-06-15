@@ -1,0 +1,12 @@
+ALUNO: Junior
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 178109171858706
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Charles Babbage está trabalhando no seu computador mecânico, mas precisa de ajuda para resolver um problema.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1man, old, white hair, Victorian clothes,  Babbage está tentando calcular uma fórmula complexa, mas está confuso. in Victorian office with old computers and gears, frustrado expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1human child, cute, 19th century clothes,  Você está tentando acessar os registros do computador, mas não consegue encontrar a página certa. in Victorian office with old computers and gears, confuso expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1human child, cute, 19th century clothes, 1man, old, white hair, Victorian clothes,  Babbage está mostrando a você os registros do computador e explicando como resolver o problema. in Victorian office with old computers and gears, satisfeito expression, over-the-shoulder, highly detailed scenery

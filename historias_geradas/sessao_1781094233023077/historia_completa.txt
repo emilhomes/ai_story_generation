@@ -1,0 +1,9 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781094233023077
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Você é assistente do famoso inventor Charles Babbage. Ele está trabalhando no projeto da Máquina Analítica, que pode calcular e armazenar números de forma mais rápida e precisa. No entanto, ele notou que os 'computadores' humanos estão cometendo muitos erros nos tabelões matemáticos usados para navegação marítima. Ele olha para você e pergunta: 'Como podemos reduzir esses erros?'
+

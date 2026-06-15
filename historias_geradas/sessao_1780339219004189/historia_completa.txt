@@ -1,0 +1,12 @@
+ALUNO: Lucas
+TEMA: Fantasia
+SKILL: sentimentos
+SESSION_ID: 1780339219004189
+
+
+--- CENA 1 ---
+Lucas entrou na sala de aula de fantasia com um sorriso no rosto. Ele estava ansioso para conhecer seus novos amigos e professores.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, school uniform,  Boy walking into a colorful classroom with a big smile on his face, looking around at the various fantasy-themed decorations in vibrant classroom with posters of magical creatures, shelves filled with books on mythology and folklore, a large map of fantastical worlds on the wall, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, school uniform,  Boy sitting at his desk, looking through a book about dragons, turning pages with wonder in his eyes in cozy reading nook with soft cushions and pillows, a few stuffed animals watching over the boy, a warm lamp casting a gentle glow, engaged expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, green shirt, school uniform,  Close-up of the boy's face lighting up as he looks out the window at the school garden, seeing a group of students playing with bubbles and laughing in blurred background of the school garden, colorful flowers and trees swaying in the breeze, sunlight filtering through the leaves, happy expression, close-up, highly detailed scenery

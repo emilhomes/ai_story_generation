@@ -1,0 +1,21 @@
+ALUNO: Yasmim
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780523193112277
+
+
+--- CENA 1 ---
+Yasmim walked into the school with a big smile on her face, excited to meet new friends and learn new things. She saw colorful posters on the walls and a big tree outside the window that seemed to stretch up to the sky.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, bright smile, curly brown hair, yellow sundress,  Girl walking through the school entrance, looking around with wide eyes and a big smile in brightly lit school hallway, colorful lockers, posters of animals on the walls, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, bright smile, curly brown hair, yellow sundress,  Girl sitting at a desk in a cozy classroom, surrounded by books and pencils, looking through a picture book with a gentle smile in warmly lit classroom, soft rug, bookshelves filled with colorful books, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, bright smile, curly brown hair, yellow sundress,  Close-up of the girl's hands gently holding a small potted plant, looking up at it with a happy expression in blurred background of school children playing outside through the window, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Explore the school with her teacher
+
+--- CENA 2 ---
+Yasmim was excited to explore the new school with her teacher, Senhora Maria. As they walked through the colorful hallway, she noticed a group of students gathered around a table, engaged in a lively discussion.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, bright smile, curly brown hair, yellow sundress,  Yasmim and Senhora Maria approach the table where students are discussing a book, with open pages and colorful notes scattered around them in vibrant school library, shelves filled with books, soft lighting, comfortable chairs, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of a student's face, enthusiastically explaining a point to the group, while others listen intently, nodding their heads in cozy school classroom, whiteboard with colorful markers, students seated in a circle, engaged expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, bright smile, curly brown hair, yellow sundress,  Yasmim's eyes widen as she watches the discussion, her hands clasped together in excitement, while Senhora Maria smiles and encourages her to join in in blurred background of students engaged in conversation, with Yasmim and Senhora Maria in the foreground, happy expression, close-up, highly detailed scenery

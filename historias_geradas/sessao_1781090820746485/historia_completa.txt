@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781090820746485
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Você é assistente de Charles Babbage, um inventor famoso por projetar máquinas mecânicas complexas. Ele olha para você com preocupação e pergunta: 'Como podemos reduzir esses erros nos tabelões matemáticos?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage holds up a large, leather-bound book with intricate calculations and points to a page filled with errors in A 19th century study with wooden shelves, lined with books and papers. Soft candlelight casts shadows on the walls., concerned expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Eduardo leans over a workbench, studying a set of intricate clockwork mechanisms, while Babbage looks on in A cluttered workshop with half-finished projects and tools scattered about. Steam hisses from pipes in the background., intrigued expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage paces back and forth in front of a large, wooden table, gesturing emphatically as he speaks in A grand, dimly lit room with high ceilings. The walls are lined with bookshelves and there is a large, wooden table at the center., frustrated expression, wide shot, highly detailed scenery

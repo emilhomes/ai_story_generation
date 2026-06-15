@@ -10,6 +10,46 @@ os.makedirs(ESTADOS_DIR, exist_ok=True)
 # BLUEPRINTS NARRATIVOS (A ESTRUTURA REAL)
 # ============================================================
 BLUEPRINTS = {
+    "historia_computacao": {
+        "steps": [
+            {
+                "id": "maquina_analitica",
+                "npc_principal": "Charles Babbage",
+                "goal": "Introduce the student as Babbage's assistant in 1837 London. Present the problem of mathematical errors in maritime tables.",
+                "historical_facts": "Charles Babbage noticed that human 'computers' made many errors in mathematical tables used for navigation. The Analytical Engine included a 'Store' (memory), a 'Mill' (processor), and used punch cards inspired by Jacquard looms. It was the first design for a general-purpose computer.",
+                "emotion": "frustration",
+                "cannot_happen": "modern technology, robots",
+                "must_happen": "Babbage asks: 'Como podemos reduzir esses erros?', choices about building a machine or hiring people"
+            },
+            {
+                "id": "ada_lovelace",
+                "npc_principal": "Ada Lovelace",
+                "goal": "The student is a researcher analyzing the Analytical Engine project with Ada Lovelace. She proposes the idea of sequences of instructions.",
+                "historical_facts": "Ada Lovelace translated Luigi Menabrea's memoir on the machine and added her own 'Notes'. In 'Note G', she wrote the first algorithm intended for a machine: a method to calculate Bernoulli numbers. She realized the machine could manipulate symbols, not just numbers, potentially creating music or art.",
+                "emotion": "inspiration",
+                "cannot_happen": "purely numerical focus without question",
+                "must_happen": "Ada asks: 'O que acha?', choices about step-by-step instructions or numerical limits"
+            },
+            {
+                "id": "turing",
+                "npc_principal": "Alan Turing",
+                "goal": "Cambridge, 1936. Student is with Alan Turing. He's tackling computability.",
+                "historical_facts": "In his paper 'On Computable Numbers', Turing introduced the concept of a Universal Machine. It used an infinite tape with symbols and a read/write head. He proved that some problems (like the Halting Problem) are undecidable, defining the limits of what computers can do.",
+                "emotion": "contemplation",
+                "cannot_happen": "computers already existing",
+                "must_happen": "Turing asks: 'Como saber se um problema pode ser resolvido por uma máquina?', choices about symbols on a tape or traditional proof"
+            },
+            {
+                "id": "arpanet",
+                "npc_principal": "Vint Cerf",
+                "goal": "Student is an engineer in the ARPANET project. Discussion about network failure and university connection.",
+                "historical_facts": "ARPANET was the first network to implement TCP/IP and packet switching. The first message was sent between UCLA and SRI in 1969. The message was supposed to be 'LOGIN', but the system crashed after 'LO'. It aimed to connect researchers across the US reliably.",
+                "emotion": "urgency",
+                "cannot_happen": "internet already existing",
+                "must_happen": "Scientists ask for opinion on connection failure, choices about packets or exclusive connections"
+            }
+        ]
+    },
     "socializacao": {
         "steps": [
             {
@@ -113,7 +153,9 @@ class StateManager:
             "student_name": state["student"]["name"],
             "theme": state["student"]["theme"],
             "current_step": step["id"],
+            "npc_principal": step.get("npc_principal", ""),
             "goal": step["goal"],
+            "historical_facts": step.get("historical_facts", ""),
             "emotion": step["emotion"],
             "cannot_happen": step["cannot_happen"],
             "must_happen": step["must_happen"],

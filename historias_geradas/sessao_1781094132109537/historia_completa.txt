@@ -1,0 +1,9 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781094132109537
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabuleiros utilizados para navegação marítima. Ele olha para você e pergunta: 'Como podemos reduzir esses erros?'
+

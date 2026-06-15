@@ -1,0 +1,5 @@
+ALUNO: Edu
+TEMA: Sertão Cordel
+SKILL: coragem
+SESSION_ID: 1780338485433578
+

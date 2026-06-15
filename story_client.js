@@ -29,6 +29,7 @@ function salvarImagem(base64, nomeArquivo) {
     const filePath = path.join(PASTA_SESSAO, nomeArquivo);
     const buffer = Buffer.from(base64, "base64");
     fs.writeFileSync(filePath, buffer);
+    console.log(`      💾 Imagem salva em: ${filePath}`);
 }
 
 function registrarLog(conteudo) {
@@ -140,33 +141,25 @@ function mostrarOpcoes(opcoes) {
 // LOOP PRINCIPAL
 // ============================================================
 async function main() {
-    SEED_SESSAO = Math.floor(Math.random() * 1000000000);
-    prepararPastaSessao(SEED_SESSAO);
-
-    IMAGEM_REFERENCIA_GLOBAL = null;
-    let contadorCena = 1;
+    let contadorCena = 1; // Inicializa o contador
 
     console.log("\n==================================================");
-    console.log("🎬 NAO - AVENTURAS SOCIOEMOCIONAIS");
+    console.log("🎬 NAO - HISTÓRIA DA COMPUTAÇÃO");
     console.log("==================================================");
 
     const nome = await perguntar("Qual o nome da criança? ");
     
-    const temas = ["Escola", "Espaço", "Sertão Cordel", "Fantasia", "Fundo do Mar"];
-    mostrarMenu("ESCOLHA O MUNDO", temas);
-    const temaIdx = parseInt(await perguntar("Selecione (1-5): ")) - 1;
-    const tema = temas[temaIdx] || "Escola";
+    const temas = ["Londres Vitoriana", "Cambridge", "Laboratório ARPA", "Vale do Silício"];
+    mostrarMenu("ESCOLHA O CENÁRIO HISTÓRICO", temas);
+    const temaIdx = parseInt(await perguntar("Selecione (1-4): ")) - 1;
+    const tema = temas[temaIdx] || "Londres Vitoriana";
 
     const skills = [
-        { label: "Fazer amigos", value: "socializacao" },
-        { label: "Entender sentimentos", value: "sentimentos" },
-        { label: "Ser corajoso", value: "coragem" }
+        { label: "História da Computação", value: "historia_computacao" }
     ];
-    mostrarMenu("O QUE VAMOS PRATICAR HOJE?", skills.map(s => s.label));
-    const skillIdx = parseInt(await perguntar("Selecione (1-3): ")) - 1;
+    mostrarMenu("O QUE VAMOS APRENDER HOJE?", skills.map(s => s.label));
+    const skillIdx = parseInt(await perguntar("Selecione (1): ")) - 1;
     const skill = (skills[skillIdx] || skills[0]).value;
-
-    registrarLog(`ALUNO: ${nome}\nTEMA: ${tema}\nSKILL: ${skill}\nSEED: ${SEED_SESSAO}\n`);
 
     console.log("\n⏳ Preparando o mundo e abrindo o livro...");
     const dados = await iniciarSessao(nome, tema, skill);
@@ -175,6 +168,11 @@ async function main() {
         console.log("Erro ao iniciar.");
         process.exit(0);
     }
+
+    // AGORA SIM: Criamos a pasta com o ID que o servidor nos deu
+    SEED_SESSAO = dados.session_id; 
+    prepararPastaSessao(SEED_SESSAO);
+    registrarLog(`ALUNO: ${nome}\nTEMA: ${tema}\nSKILL: ${skill}\nSESSION_ID: ${SEED_SESSAO}\n`);
 
     let session_id = dados.session_id;
     let node_id = dados.node_id;
@@ -197,20 +195,23 @@ async function main() {
         }
     }
 
-    if (temOpcoes) mostrarOpcoes(dados.opcoes);
+    // opcoes_atuais guarda SEMPRE as opções da cena mais recente
+    let opcoes_atuais = dados.opcoes || [];
+    if (temOpcoes) mostrarOpcoes(opcoes_atuais);
 
     while (temOpcoes) {
         const escolhaStr = await perguntar("\n👉 Escolha (1-2) ou sair: ");
         if (escolhaStr.toLowerCase() === "sair") break;
 
         const idx = parseInt(escolhaStr);
-        if (isNaN(idx) || idx < 1 || idx > 2) {
+        if (isNaN(idx) || idx < 1 || idx > opcoes_atuais.length) {
             console.log("❌ Opção inválida.");
             continue;
         }
 
         contadorCena++;
-        const escolhaTexto = dados.opcoes[idx - 1];
+        // CORREÇÃO: usa opcoes_atuais, não dados.opcoes (que ficaria preso na cena 1)
+        const escolhaTexto = opcoes_atuais[idx - 1];
         console.log(`\n⏳ Você escolheu: "${escolhaTexto}"`);
         registrarLog(`\nESCOLHA DO USUÁRIO: ${escolhaTexto}`);
 
@@ -231,10 +232,11 @@ async function main() {
             await gerarSequenciaStoryboard(resposta.prompts_imagens, resposta.microcenas_textos, negative, contadorCena);
         }
 
-        if (temOpcoes) mostrarOpcoes(resposta.opcoes);
-        else console.log("\n🎬 Fim da história!");
+        // CORREÇÃO: atualiza opcoes_atuais IMEDIATAMENTE para a próxima iteração
+        opcoes_atuais = resposta.opcoes || [];
 
-        dados.opcoes = resposta.opcoes;
+        if (temOpcoes) mostrarOpcoes(opcoes_atuais);
+        else console.log("\n🎬 Fim da história!");
     }
 
     console.log(`\n✨ Sessão encerrada! Todos os arquivos estão em: ${PASTA_SESSAO}`);

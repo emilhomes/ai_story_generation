@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # CONFIGURAÇÕES DO NAO
-NAO_IP = "192.168.x.x"  # Mude para o IP real do seu NAO
+NAO_IP = "172.16.61.45"  # IP do seu robô (ajuste se necessário)
 NAO_PORT = 9559
 
 def get_nao_proxies():

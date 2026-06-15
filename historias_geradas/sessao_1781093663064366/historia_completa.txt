@@ -1,0 +1,10 @@
+ALUNO: Junior
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781093663064366
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. É um dia chuvoso e neblinoso. Você é o assistente de Charles Babbage, que está sentado à mesa de trabalho, cercado por papéis e lápis. Ele olha para você com uma expressão preocupada e pergunta: 'Como podemos reduzir esses erros nos tabelões matemáticos?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage olha para você com uma expressão preocupada, apoiando a cabeça na mão, enquanto você está sentado ao seu lado, observando os papéis e lápis espalhados pela mesa de trabalho. in 19th century workshop, chuveiro, neblina lá fora, luzes a gás, móveis antigos, preocupação expression, medium shot, highly detailed scenery

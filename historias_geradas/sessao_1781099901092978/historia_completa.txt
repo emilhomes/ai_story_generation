@@ -1,0 +1,12 @@
+ALUNO: Juliana
+TEMA: Laboratório ARPA
+SKILL: historia_computacao
+SESSION_ID: 1781099901092978
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabulados marítimos. Ele olha para você e pergunta como reduzir esses erros.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Student and Babbage standing near a wooden table with a large, leather-bound book open to a page of mathematical tables. The tables are filled with errors marked in red ink. in 19th century workshop, natural light streaming through the windows, wooden cabinets and shelves filled with books and tools, concerned expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage points to a specific error in the table, his finger tracing the path of a calculation. Juliana leans in, studying the mistake. in workshop background with steam pipes and machinery humming in the distance, frustrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Student nods thoughtfully, her eyes scanning the room as she considers the problem. She pauses near a large, brass gear on a nearby workbench, running her hand over its intricate mechanisms. in workshop with tools and mechanical parts scattered about, a faint scent of oil and metal in the air, intrigued expression, medium shot, highly detailed scenery

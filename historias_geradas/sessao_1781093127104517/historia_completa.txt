@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781093127104517
+
+
+--- CENA 1 ---
+Você caminha pelo laboratório de Charles Babbage em Londres, 1837. O ar está preenchido com o cheiro do óleo e vapor dos equipamentos. Você nota que o mestre está preocupado, olhando para um grande relógio mecânico.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Charles Babbage pointing at the complex brass gears of the Analytical Engine in Victorian workshop, blueprints on walls, with a large wooden table in the center, focused, concerned expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  The human student João looking at punch cards with curiosity, holding one up to examine it closely in workshop desk, with a stack of papers and quills nearby, curious, engaged expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Wide shot of the Analytical Engine's brass casing, with intricate engravings and gears visible through small windows in 19th century laboratory, with large glass jars filled with strange objects on shelves, awe, wonder expression, wide shot, highly detailed scenery

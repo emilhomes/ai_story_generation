@@ -1,0 +1,21 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781090292048436
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Você é assistente de Charles Babbage, um inventor famoso por projetar a Máquina Analítica. Ele olha para você com preocupação e pergunta: 'Como podemos reduzir esses erros nos tabulados matemáticos?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Student and Babbage standing near a wooden table with brass gears and mechanical parts, looking at complex blueprints in 19th century workshop, steam coming from pipes, candle light, wooden shelves with old books and papers, concerned expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage pointing at a mistake in a table of numbers on a large piece of paper, looking frustrated in workshop background with tools and mechanical parts, old clock ticking in the corner, frustrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Student leaning over a large wooden desk, studying a set of punch cards inspired by Jacquard looms in workshop with old books and papers scattered around, natural light coming from the window, curious expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Construir uma máquina que faça os cálculos automaticamente
+
+--- CENA 2 ---
+Você está em Londres, trabalhando no projeto da Máquina Analítica com Ada Lovelace. Ela pergunta o que você acha sobre as sequências de instruções para calcular Bernoulli números. Você pode sugerir criar um sistema de passos detalhados ou discutir limites numéricos.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of Ada Lovelace's hands writing in her notebook, with a thoughtful expression in A Victorian-style study with bookshelves and a desk, soft candlelight, and papers scattered around, inspired expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Student leaning over Ada's shoulder, studying the notebook together, looking at complex mathematical equations in The study with a warm atmosphere, books and papers on the desk, and a globe in the background, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Ada Lovelace looking up from her notebook, asking the student for their opinion, with a hint of excitement in The study with a warm atmosphere, books and papers on the desk, and a globe in the background, encouraging expression, medium shot, highly detailed scenery

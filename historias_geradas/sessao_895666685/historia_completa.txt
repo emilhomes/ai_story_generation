@@ -1,0 +1,12 @@
+ALUNO: Ariel
+TEMA: Espaço
+SKILL: socializacao
+SEED: 895666685
+
+
+--- CENA 1 ---
+Ariel está em uma espaçonave tranquila com um ambiente acolhedor. Ela tem um sorriso amigável e olha ao redor com curiosidade.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling face, curly brown hair, white spacesuit,  Girl in a white spacesuit walking slowly through the central corridor of the spaceship, looking around with a calm expression in spacious interior of the spaceship, metallic walls, soft lighting, control panels, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling face, curly brown hair, white spacesuit,  Girl in a white spacesuit standing near a large window, looking out at the stars and planets outside in space view from the spaceship's window, stars, planets, galaxies, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling face, curly brown hair, white spacesuit,  Close-up of the girl's face showing a thoughtful expression as she examines a control panel in blurred background of spaceship's instruments and controls, soft lighting, focused expression, close-up, highly detailed scenery

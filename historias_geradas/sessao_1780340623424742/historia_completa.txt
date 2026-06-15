@@ -1,0 +1,12 @@
+ALUNO: Kaio
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780340623424742
+
+
+--- CENA 1 ---
+Kaio walked into his new school with a mix of emotions on his face. He looked around at the colorful classrooms and the playground filled with happy children playing together.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, black hair, green shirt, school uniform,  Boy slowly opens the school gate and steps inside, looking around with a gentle smile in sunny school playground, colorful slides, trees, swings, and a sandbox, calm expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, black hair, green shirt, school uniform,  Boy stands near a bookshelf in the classroom, running his fingers over the spines of the books, taking deep breaths as he looks around in cozy classroom with big windows, comfortable chairs, and colorful posters on the walls, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, black hair, green shirt, school uniform,  Boy sits on a bench in the playground, looking out at the other children playing tag, a soft smile on his face as he watches in vibrant school playground with kids running around, laughing and shouting, sunshine filtering through the trees, happy expression, wide shot, highly detailed scenery

@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781092274481675
+
+
+--- CENA 1 ---
+Você caminha pelo laboratório de Charles Babbage em Londres em 1837, assistindo ao trabalho da máquina analítica. O senhor Babbage nota que os 'computadores' humanos cometem muitos erros nas tabelas matemáticas usadas para navegação.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Babbage pointing at a brass engine in Victorian laboratory, intense expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  João examining punch cards on a table in Victorian laboratory, curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Babbage's Analytical Engine with gears and levers in Victorian laboratory, impressed expression, wide shot, highly detailed scenery

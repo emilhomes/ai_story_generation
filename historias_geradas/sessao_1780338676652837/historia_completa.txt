@@ -1,0 +1,12 @@
+ALUNO: Dudu
+TEMA: Fundo do Mar
+SKILL: coragem
+SESSION_ID: 1780338676652837
+
+
+--- CENA 1 ---
+Dudu está aqui para explorar o Fundo do Mar! Ele está sentado em uma rocha, com as mãos nos joelhos e olhando para a água azul. O sol brilha suavemente sobre ele.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, beach shorts,  Boy sitting on a rock at the edge of the ocean, looking down at the water with a calm expression in sunny beach scene, clear blue water, sandy shore, palm trees swaying in the breeze, calm expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, beach shorts,  Close-up of the boy's face showing a gentle smile as he gazes out at the ocean in blurred background of beach scenery, with the focus on the boy's face and the ocean beyond, peaceful expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, brown hair, blue shirt, beach shorts,  Boy standing up from the rock, stretching his arms out to the sides as he takes in the sights and sounds of the ocean in vibrant beach scene, with seagulls flying overhead, beach balls bouncing on the sand, and the sound of waves crashing in the background, excited expression, medium shot, highly detailed scenery

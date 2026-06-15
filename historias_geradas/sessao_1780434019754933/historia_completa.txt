@@ -1,0 +1,21 @@
+ALUNO: Junior
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780434019754933
+
+
+--- CENA 1 ---
+Junior walked into his new school with a calm smile on his face. He looked around at the colorful classrooms and the big, green trees outside, feeling happy to be there.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Boy standing in front of a large, wooden door, looking at it with curiosity in brightly lit classroom, colorful posters on the walls, rows of desks and chairs, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Boy walking towards a big, wooden table with blocks on it, reaching out to touch them in well-lit classroom with natural light pouring in from the windows, soft carpet underfoot, excited expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Close-up of the boy's hands gently placing a block on top of another one, creating a tower in blurred background of other children playing in the classroom, focused expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Explore the classroom
+
+--- CENA 2 ---
+Junior walked into his new school with a mix of excitement and nervousness. He looked around at the unfamiliar faces and tried to take it all in.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Boy standing near the classroom door, looking around at other students chatting and laughing in busy school hallway, lockers, posters on walls, students milling about, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Boy walking over to a group of students gathered around a colorful art project, observing what they're doing in cluttered classroom, tables with art supplies, students engaged in creative activity, intrigued expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, blue shirt, school uniform,  Boy sitting at a desk, watching as his teacher writes on the blackboard, taking notes and looking interested in well-organized classroom, whiteboard with math problems, students seated at desks, engaged expression, close-up, highly detailed scenery

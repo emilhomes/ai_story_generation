@@ -1,0 +1,12 @@
+ALUNO: Emanoel
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781092088123105
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Charles Babbage precisa de ajuda para resolver o problema das tabelas matemáticas para navegação marítima, que estão cheias de erros humanos. Ele recentemente projetou a Maquina Analitica, um computador mecânico que incluiu uma 'Loja' (memória), uma 'Moinho' (processador) e utiliza cartões perfurados inspirados nos teares de Jacquard.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k, elderly man, 19th century gentleman suit, messy hair, focused expression,  Babbage apontando para a grande máquina de cálculo em bronze, com expressão intensa in estudo vitoriano com engrenagens e vapor, intensa expression, meia figura, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k, human child, (human face:1.4), cute student, Victorian clothing, human being,  O estudante humano Emanoel segurando uma peça de bronze e olhando para ela com admiração in mesa de trabalho, admiration expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, sharp focus, 8k,  Close-up de uma série de rodas de bronze complexas e números rotativos in dentro da máquina, neutra expression, macro shot, highly detailed scenery

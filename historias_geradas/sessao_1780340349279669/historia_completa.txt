@@ -1,0 +1,12 @@
+ALUNO: Diego
+TEMA: Fantasia
+SKILL: coragem
+SESSION_ID: 1780340349279669
+
+
+--- CENA 1 ---
+Diego stepped into the enchanted forest with a sense of wonder in his eyes. The soft rustling of leaves and chirping of birds created a soothing melody that filled his heart with calmness.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, messy brown hair, green t-shirt, backpack,  Boy walking slowly along a winding forest path, looking around with a gentle smile in sun-dappled forest floor, tall trees, ferns, wildflowers, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, messy brown hair, green t-shirt, backpack,  Boy crouching down to examine a small, shimmering stream, watching the water flow over smooth rocks in peaceful forest clearing, sunlight filtering through leaves, gentle ripples on the water's surface, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, messy brown hair, green t-shirt, backpack,  Close-up of the boy's face showing a look of delight as he watches a butterfly land on his hand in blurred background of forest foliage, warm sunlight casting dappled shadows, happy expression, close-up, highly detailed scenery

@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781090674206984
+
+
+--- CENA 1 ---
+Você está em Londres, 1837, trabalhando como assistente do famoso inventor Charles Babbage. Ele está preocupado com os erros matemáticos nos tabelões de navegação. Você vê o inventor frustrado e decide ajudá-lo a encontrar uma solução.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage e você estão sentados em uma mesa de madeira, cercados por tubos de vapor e velas acesas. Ele está mostrando-lhe os tabelões com erros. in sala de trabalho vitoriana, equipamentos mecânicos e ferramentas antigas, frustrado expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage está apontando para um erro em uma tabela de números, com a mão trêmula de frustração. in sala de trabalho vitoriana, fundo com equipamentos mecânicos e ferramentas antigas, estressado expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Você está pensativo, tomando nota em um caderno enquanto olha para uma peça mecânica complexa. in sala de trabalho vitoriana, equipamentos mecânicos e ferramentas antigas, curioso expression, medium shot, highly detailed scenery

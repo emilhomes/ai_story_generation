@@ -1,0 +1,21 @@
+ALUNO: João
+TEMA: Espaço
+SKILL: sentimentos
+SESSION_ID: 1780492213927685
+
+
+--- CENA 1 ---
+João stepped into the new school with a mix of excitement and nervousness. He looked around at his classmates playing in the courtyard, feeling a sense of belonging as he breathed in the sweet scent of blooming flowers.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Boy walking through a small gate with a sign that reads 'Bem-vindo à nossa escola' (Welcome to our school), looking up at the colorful mural depicting various planets and stars in sunny school courtyard, vibrant mural on the wall, blooming flowers in planters, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Boy standing near a large model of the solar system, gently touching the surface of the Earth with his finger, looking up at the sun shining through the skylight above in spacious school library, large model of the solar system on a table, bookshelves filled with astronomy books, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Close-up of the boy's face showing a bright, hopeful expression as he looks out at the stars through a small telescope, his eyes wide with wonder in blurred background of school children playing in the courtyard, stars twinkling in the night sky outside the skylight, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Explore the school garden
+
+--- CENA 2 ---
+João está explorando o jardim da escola, rodeado de flores coloridas e árvores altas. Ele observa seus colegas brincando no pátio ao fundo, mas agora ele está fascinado pelas plantas exóticas que crescem na área do jardim.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Boy carefully examining a rare orchid in the garden bed, gently touching its petals in vibrant school garden, blooming roses, sunlight filtering through leaves, green grass, curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Boy sitting on a bench near a small pond, watching fish swim in the water, with a thoughtful expression in serene school garden, blooming lilies, sunlight reflecting off the water's surface, calm expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, short brown hair, blue shirt, school uniform,  Boy standing near a large tree, looking up at its branches with wonder in his eyes, as birds fly overhead in magnificent school garden, towering trees, colorful flowers, sunlight filtering through the leaves, amazed expression, wide shot, highly detailed scenery

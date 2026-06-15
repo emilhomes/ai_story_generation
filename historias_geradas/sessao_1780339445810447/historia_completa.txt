@@ -1,0 +1,12 @@
+ALUNO: Kaio
+TEMA: Sertão Cordel
+SKILL: coragem
+SESSION_ID: 1780339445810447
+
+
+--- CENA 1 ---
+Kaio está sentado em uma roça de cana-de-açúcar, cercado por um céu azul claro e nuvens brancas. Ele olha para baixo, observando as folhas verdes da cana balançando suavemente ao vento.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, worn boots, overalls,  Boy sitting on a haystack in the middle of the sugarcane field, gently running his hand through the stalks in serene landscape of rolling hills, green sugarcane fields, and distant mountains, calm expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, worn boots, overalls,  Boy standing near a small stream that runs through the field, bending down to observe a fish swimming in the water in tranquil scene of a winding stream, surrounded by tall grasses and colorful wildflowers, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, smiling child, messy brown hair, worn boots, overalls,  Close-up of the boy's face showing a peaceful expression as he watches a bird perched on a nearby branch in blurred background of the sugarcane field, with a few birds flying overhead, happy expression, close-up, highly detailed scenery

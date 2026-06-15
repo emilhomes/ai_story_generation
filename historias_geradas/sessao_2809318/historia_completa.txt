@@ -1,0 +1,5 @@
+ALUNO: Mário
+TEMA: Fantasia
+SKILL: socializacao
+SEED: 2809318
+

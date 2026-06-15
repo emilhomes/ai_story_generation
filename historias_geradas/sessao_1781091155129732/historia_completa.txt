@@ -1,0 +1,21 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781091155129732
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Você é assistente de Charles Babbage, um inventor famoso por projetar máquinas incríveis. Ele olha para você com preocupação e pergunta: "Como podemos reduzir esses erros nos tabelões matemáticos?"
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Student and Babbage standing in front of a large wooden table with several drawers, looking at a stack of mathematical tables with errors marked in 19th century workshop, dim lighting from candles, steam pipes in the background, wooden cabinets and shelves filled with tools and mechanical parts, concerned expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage holding a worn-out punch card, pointing to a mistake in the table of numbers, looking frustrated in workshop background with tools and mechanical parts, a few scattered papers on the floor, frustrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Student leaning over the table, studying the errors in the tables, nodding thoughtfully while touching a brass gear nearby in workshop with tools and mechanical parts, a few scattered papers on the floor, a large wooden clock in the background, curious expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Construir uma máquina automática
+
+--- CENA 2 ---
+Você está em Londres, 1843. Como assistente de Ada Lovelace, você analisa o projeto da Máquina Analítica. Ela pergunta: 'O que acha sobre sequências de instruções para a máquina?'.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Close-up of Ada Lovelace looking at her notes with a thoughtful expression, while Eduardo is seen in the background, nodding in small workshop with papers, books, and writing utensils scattered around, natural light coming through a window, inspired expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Ada Lovelace gestures to a large drawing of the Analytical Engine on a wooden table, while Eduardo leans in to examine it closely in workshop with blueprints and diagrams covering the walls, steam pipes and machinery in the background, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Eduardo points to a section of Ada's notes, while she looks at it intently, both deep in thought in a cluttered desk with papers and books, natural light coming through a window, casting a warm glow, focused expression, close-up, highly detailed scenery

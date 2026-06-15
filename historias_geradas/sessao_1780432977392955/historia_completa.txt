@@ -1,0 +1,30 @@
+ALUNO: Yasmim
+TEMA: Fantasia
+SKILL: coragem
+SESSION_ID: 1780432977392955
+
+
+--- CENA 1 ---
+Yasmim entrou no mundo da fantasia com um sorriso nos lábios e um olhar curioso. Ela encontrou uma floresta mágica, cheia de árvores altas que pareciam dançar ao vento.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl walking slowly through a sunlit forest glade, looking around with wonder in sunny forest, tall trees, colorful wildflowers, soft grass beneath her feet, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Close-up of the girl's hands gently touching the leaves of a nearby flower, as she inhales deeply in blurred background of forest trees, warm sunlight filtering through the canopy, calm expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl sitting on a toadstool, surrounded by fireflies dancing around her head, looking up at them with delight in twilight forest, soft moonlight filtering through the trees, fireflies lighting up the air, happy expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Encontrar um amigo
+
+--- CENA 2 ---
+Yasmim está em uma terra de fantasia, onde criaturas mágicas vivem juntas. Ela observa um grupo de dragões dançando ao som de música encantada.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl standing at a distance, looking at the group of dragons dancing in unison. She watches as they twirl and spin to the music. in a lush, vibrant meadow filled with wildflowers, sunlight filtering through the trees, a gentle breeze rustling the leaves, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of a dragon's face as it lets out a happy roar and continues dancing. Its scales glimmer in the sunlight. in a colorful, whimsical forest filled with towering trees, sparkling fountains, and fluttering butterflies, joyful expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl taking a step closer to the dragons, her eyes wide with wonder as she watches them dance. She looks like she's about to join in. in a sun-drenched clearing surrounded by tall trees, a soft breeze carrying the sweet scent of blooming flowers, excited expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Observar os dragões mais perto
+
+--- CENA 3 ---
+Yasmim walked into the fantastical land, her eyes wide with wonder. She had always dreamed of meeting a friendly dragon. As she approached a magnificent creature with scales shimmering like diamonds, it looked up at her with gentle curiosity.
+
+[IMAGEM: cena_3_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl standing still, looking up at the dragon with a gentle smile in sunny meadow, wildflowers swaying in the breeze, distant mountains, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_3_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of the dragon's face showing a friendly expression as it looks at Yasmim in blurred background of trees and flowers, focus on the dragon's face, gentle expression, close-up, highly detailed scenery
+[IMAGEM: cena_3_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, smiling child, curly brown hair, green dress, sparkly shoes,  Girl reaching out a hand to touch the dragon's scales, which shimmer in response to her gentle touch in vibrant meadow, colorful flowers surrounding the girl and dragon, warm sunlight, delighted expression, medium shot, highly detailed scenery

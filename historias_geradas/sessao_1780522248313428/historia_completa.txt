@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Escola
+SKILL: coragem
+SESSION_ID: 1780522248313428
+
+
+--- CENA 1 ---
+
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, young child, casual outfit,  character appearing in detailed background, neutral expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, young child, casual outfit,  character appearing in detailed background, neutral expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, young child, casual outfit,  character appearing in detailed background, neutral expression, wide shot, highly detailed scenery

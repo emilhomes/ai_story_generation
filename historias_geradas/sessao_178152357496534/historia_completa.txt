@@ -1,0 +1,12 @@
+ALUNO: Eduardo
+TEMA: Cambridge
+SKILL: historia_computacao
+SESSION_ID: 178152357496534
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos nos tabulados marítimos. Ele olha para você e pergunta: 'Como podemos reduzir esses erros?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage is pacing in front of a large wooden table, surrounded by stacks of papers and mathematical tables. He gestures emphatically as he speaks. in 19th century workshop, steam coming from pipes, candle light, wooden beams, and old books on shelves, frustrated expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Close-up of a mathematical table with numerous errors marked in red. Babbage's finger points to one of the mistakes, his expression concerned. in workshop background, old books and papers scattered around, concerned expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1 child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Eduardo is sitting at a nearby desk, intently studying the blueprints of the Analytical Engine. He looks up as Babbage approaches him. in workshop with tools and mechanical parts, old clock on the wall, curious expression, medium shot, highly detailed scenery

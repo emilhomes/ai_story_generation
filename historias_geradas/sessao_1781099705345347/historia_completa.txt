@@ -1,0 +1,21 @@
+ALUNO: Eduardo
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781099705345347
+
+
+--- CENA 1 ---
+Você está em Londres, 1837. Como assistente de Charles Babbage, você vê o inventor frustrado com erros matemáticos em tabelas marítimas. Ele olha para você e pergunta: 'Como podemos reduzir esses erros?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints with intricate drawings of mechanical parts,  Student and Babbage standing in front of a large wooden table with multiple drawers, each containing various mathematical instruments such as protractors, compasses, and slide rules. The room is filled with the smell of wood polish and the soft hum of a steam engine. in 19th century workshop, wooden tables, brass fixtures, candles casting warm light, concerned expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints with intricate drawings of mechanical parts,  Close-up of Babbage's hands as he holds a small notebook with scribbled notes and calculations. His brow is furrowed in frustration, and his eyes are narrowed in concentration. in workshop background with scattered papers and mathematical instruments, frustrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Student leaning over a large, leather-bound book of maritime tables, pointing to an error in the calculations. The room is dimly lit, with only a few candles illuminating the space. in 19th century library or study, wooden shelves filled with books, candle light casting shadows, thoughtful expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Construir uma máquina que faça os cálculos automaticamente
+
+--- CENA 2 ---
+Você está em Londres, 1843. Como assistente de Ada Lovelace, você vê a matemática fascinada com as possibilidades da Máquina Analítica. Ela olha para você e pergunta: 'O que acha?' sobre suas ideias de sequências de instruções.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Lovelace gestures to a large diagram of the Analytical Engine on an easel, pointing out the potential for symbolic manipulation in 19th century study with books and papers scattered about, natural light pouring in through a window, inspired expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of Lovelace's hands as she writes notes on a piece of paper, her eyes shining with excitement in study background with papers and quills scattered about, eager expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1child, cute student, period-appropriate clothing,  Eduardo nods thoughtfully as he examines a small model of the Analytical Engine, turning it over in his hands in workshop with tools and mechanical parts, soft focus to emphasize the intricate details, intrigued expression, medium shot, highly detailed scenery

@@ -1,0 +1,21 @@
+ALUNO: Pedro
+TEMA: Escola
+SKILL: socializacao
+SESSION_ID: 1780429358366071
+
+
+--- CENA 1 ---
+Pedro walked into his new school with a calm smile on his face. He looked around at the colorful classrooms and saw his teacher, Mrs. Silva, welcoming students to their new classroom.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, yellow shirt, school uniform,  Boy walking slowly through the school entrance, looking around at the new surroundings with a calm expression in sunny school hallway, colorful lockers, soft music playing in the background, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, yellow shirt, school uniform,  Close-up of Pedro's face as he takes a deep breath, looking happy and excited to start his new adventure in blurred background of students chatting in the hallway, with a few colorful flowers on a nearby table, hopeful expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, yellow shirt, school uniform, 1woman, kind teacher, curly hair, blue dress, warm smile,  Teacher, Mrs. Silva, smiling warmly and greeting Pedro as he approaches her desk in cozy classroom with a large window, comfortable chairs, and colorful educational posters on the walls, friendly expression, medium shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Say hello to Mrs. Silva
+
+--- CENA 2 ---
+Pedro entrou na sala de aula e viu sua professora, Sra. Silva, preparando um experimento interessante no balcão da frente. Ela estava misturando ingredientes em uma batedeira elétrica enquanto explicava algo para os outros alunos.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Close-up of the Sra. Silva's hands as she carefully measures out ingredients for the experiment in well-organized science classroom, beakers and test tubes on shelves, whiteboard with equations, concentrated expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting,  Wide shot of the Sra. Silva standing at the front of the classroom, explaining something to a group of students who are leaning in to listen in cozy science classroom, colorful posters on walls, students seated on chairs with their hands raised, enthusiastic expression, wide shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, curious child, brown hair, yellow shirt, school uniform,  Medium shot of Pedro sitting at his desk, looking curious and a bit puzzled as he tries to understand what the Sra. Silva is explaining in typical school classroom, rows of desks with students seated, blackboard in the background, curious expression, medium shot, highly detailed scenery

@@ -1,0 +1,30 @@
+ALUNO: Rosie
+TEMA: Escola
+SKILL: sentimentos
+SEED: 979314310
+
+
+--- CENA 1 ---
+Rosie walked into her new school with a mix of excitement and nerves. She took a deep breath, feeling the warmth of the sun on her face as she looked around at the colorful playground.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Girl walking through the school gates, looking around with a gentle smile as she takes in the sights and sounds of the playground in sunny school playground, vibrant colors, swings, slides, monkey bars, blooming flowers, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Girl standing near a flower bed, gently touching the petals of a bright yellow sunflower as she takes a deep breath of the fresh air in serene school garden, blooming flowers, lush greenery, warm sunlight filtering through leaves, calm expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Close-up of the girl's face showing a bright, hopeful expression as she looks up at the sky, feeling carefree and happy in blurred background of school children playing in the distance, fluffy white clouds in the sky, happy expression, close-up, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Find a quiet spot to observe
+
+--- CENA 2 ---
+Rosie chegou na escola com um olhar curioso. Ela viu seus colegas brincando no pátio e respirou fundo, sentindo o perfume das flores no jardim.
+
+[IMAGEM: cena_2_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Girl standing near a tree, looking at a boy playing soccer with his friends in sunny school playground, green grass, colorful flowers, children playing tag, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_2_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Close-up of a girl's face showing a thoughtful expression as she watches a boy reading a book under a tree in vibrant school garden, blooming flowers, sunlight filtering through leaves, children playing quietly, curious expression, close-up, highly detailed scenery
+[IMAGEM: cena_2_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Wide shot of a group of children laughing and playing together on the playground equipment in colorful school playground, swings, slides, monkey bars, children playing together, happy expression, wide shot, highly detailed scenery
+
+ESCOLHA DO USUÁRIO: Falar com alguém
+
+--- CENA 3 ---
+Rosie encontrou um lugar tranquilo para observar as coisas na escola. Ela viu uma menina sorrindo enquanto desenhou em seu caderno. Rosie sentiu-se curiosa sobre o que a menina estava fazendo.
+
+[IMAGEM: cena_3_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Girl sitting on a bench, looking around the playground with a curious expression in sunny school playground, colorful swings, trees, and flowers in bloom, curious expression, wide shot, highly detailed scenery
+[IMAGEM: cena_3_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Close-up of the girl's face showing a gentle smile as she watches another child draw in blurred background of school children playing, with a focus on the drawing activity, gentle expression, close-up, highly detailed scenery
+[IMAGEM: cena_3_quadro_3.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1girl, curious child, brown hair, yellow sundress, backpack,  Girl standing near the girl who is drawing, looking at her work with interest and asking a question in cozy school library, bookshelves, and comfortable seating areas, friendly expression, medium shot, highly detailed scenery

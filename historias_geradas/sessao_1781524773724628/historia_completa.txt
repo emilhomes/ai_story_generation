@@ -1,0 +1,12 @@
+ALUNO: João
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781524773724628
+
+
+--- CENA 1 ---
+Você está em Londres, 1837, como assistente de Charles Babbage. Ele olha para você e pergunta: 'Como podemos reduzir esses erros nos tabelões matemáticos?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, solo, 1person, 1child, 1child, short curly brown hair, green eyes, light skin, white linen shirt, dark brown trousers, small leather satchel, period 19th century clothing, João examina um conjunto de tabelões matemáticos com erros, olhando para eles com preocupação in 19th century workshop, luzes a gás, papel e lápis por todos os lados, preocupado expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, solo, 1person, 1man, 1man, elderly, short grey hair, pale skin, dark Victorian suit with white cravat, holding rolled blueprints, wire-frame glasses, Babbage olha para um erro em uma tabela de números, com expressão frustrada e estressada in 19th century workshop, pilhas de papel, tinteiras, grande janela com Londres nevoento lá fora, estressado expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 2people, wide shot, on the left: 1child 1child, short curly brown hair, green eyes, light skin, white linen shirt, dark brown trousers, small leather satchel, period 19th century clothing, on the right: 1man 1man, elderly, short grey hair, pale skin, dark Victorian suit with white cravat, holding rolled blueprints, wire-frame glasses, both João e Babbage estão lado a lado em uma mesa coberta por planos, ambos olhando para o mesmo desenho in 19th century workshop, luzes a gás, instrumentos de metal sobre prateleiras, concentrados expressions, highly detailed scenery

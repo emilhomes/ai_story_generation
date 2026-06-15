@@ -1,0 +1,12 @@
+ALUNO: Junior
+TEMA: Londres Vitoriana
+SKILL: historia_computacao
+SESSION_ID: 1781091387842077
+
+
+--- CENA 1 ---
+You are in Victorian London, 1837. As Charles Babbage's assistant, you witness the inventor frustrated with mathematical errors in maritime tables. He looks at you and asks: 'How can we reduce these errors?'
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage paces around the room, gesturing with his hands as he explains the importance of accurate mathematical tables for navigation. The wooden table behind him is cluttered with papers, quills, and inkwells. in 19th century study, bookshelves, leather armchairs, fireplace with a warm glow, frustrated expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1 child, cute student, period-appropriate clothing,  You, the student, sit at a nearby desk, intently studying a set of blueprints for the Analytical Engine. Your hand rests on a brass gear, and your eyes are narrowed in concentration. in workshop background with tools and mechanical parts, determined expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1 child, cute student, period-appropriate clothing, elderly man, 19th century suit, messy hair, holding blueprints,  Babbage looks at you expectantly, his eyes pleading for a solution. In the background, a large wooden cabinet houses various mathematical instruments, including an astrolabe and a sextant. in study with bookshelves and a globe on a nearby stand, hopeful expression, medium shot, highly detailed scenery

@@ -1,0 +1,12 @@
+ALUNO: Edu
+TEMA: Sertão Cordel
+SKILL: coragem
+SESSION_ID: 1780340716911613
+
+
+--- CENA 1 ---
+Edu é um menino que vive no sertão com sua família. Ele gosta de ouvir histórias do seu avô, que conta sobre a vida dos pés descalços e o céu infinito.
+
+[IMAGEM: cena_1_referencia_global.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, dark hair, worn-out shoes, simple shirt, old man, gray hair, kind eyes, traditional clothing,  Boy sitting on a porch step, listening intently to an old man's storytelling in rural landscape with dry grass, cacti, and a distant mountain range, warm sunlight casting long shadows, curious expression, medium shot, highly detailed scenery
+[IMAGEM: cena_1_quadro_1.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, dark hair, worn-out shoes, simple shirt,  Close-up of the boy's face showing a wide-eyed expression as he listens to his grandfather's story in blurred background of the porch with old furniture, surrounded by the peaceful landscape, captivated expression, close-up, highly detailed scenery
+[IMAGEM: cena_1_quadro_2.png] Prompt: masterpiece, best quality, 3d style, pixar style, cute cartoon, vivid colors, highly detailed, cinematic lighting, 1boy, cute child, dark hair, worn-out shoes, simple shirt, old man, gray hair, kind eyes, traditional clothing,  Boy and grandfather walking side by side through a field of tall grass, hand in hand, looking up at the sky in endless expanse of dry grasslands with wildflowers blooming, a few birds flying overhead, and a bright blue sky, peaceful expression, wide shot, highly detailed scenery

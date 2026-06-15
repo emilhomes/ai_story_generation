@@ -3,206 +3,822 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAO - Aventuras Socioemocionais</title>
+    <title>NAO - História da Computação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=M+PLUS+Rounded+1c:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <style>
         :root {
-            --book-bg: #f4e4bc;
-            --page-shadow: rgba(0,0,0,0.2);
+            --ink: #1a1008;
+            --paper: #f7f0e3;
+            --paper-dark: #ede3cc;
+            --panel-border: #1a1008;
+            --accent-red: #c0392b;
+            --accent-yellow: #f1c40f;
+            --accent-blue: #2471a3;
+            --spine: #2c1a08;
         }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         body, html {
-            margin: 0;
-            padding: 0;
+            width: 100%; height: 100%;
+            background: #0d0d0d;
+            overflow: hidden;
+            font-family: 'Noto Serif', Georgia, serif;
+            cursor: default;
+        }
+
+        /* ─── PARTÍCULAS DE FUNDO ─── */
+        #bg-canvas {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            z-index: 0;
+            opacity: 0.15;
+        }
+
+        /* ─── TELA DE INTRO: BOTÃO ─── */
+        #intro-screen {
+            position: fixed;
+            inset: 0;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0d0d0d;
+        }
+
+        .intro-cover {
+            width: min(420px, 85vw);
+            background: var(--paper);
+            border: 4px solid var(--ink);
+            border-radius: 4px;
+            box-shadow:
+                6px 6px 0 var(--ink),
+                12px 12px 0 rgba(0,0,0,0.3);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .intro-cover::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            width: 18px;
+            background: linear-gradient(to right, #1a0e04, #3d2409, #1a0e04);
+            box-shadow: inset -4px 0 8px rgba(0,0,0,0.4);
+            z-index: 2;
+        }
+
+        .intro-cover-inner {
+            padding: 48px 36px 40px 52px;
+            text-align: center;
+            position: relative;
+        }
+
+        .intro-cover .manga-dots {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle, var(--ink) 1px, transparent 1px);
+            background-size: 18px 18px;
+            opacity: 0.05;
+            pointer-events: none;
+        }
+
+        .intro-vol {
+            font-family: 'Bangers', cursive;
+            font-size: 1rem;
+            letter-spacing: 4px;
+            color: var(--accent-red);
+            text-transform: uppercase;
+        }
+
+        .intro-title {
+            font-family: 'Bangers', cursive;
+            font-size: 5rem;
+            line-height: 0.9;
+            color: var(--ink);
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 0 rgba(0,0,0,0.15);
+            margin: 8px 0;
+        }
+
+        .intro-subtitle {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: var(--accent-blue);
+            text-transform: uppercase;
+        }
+
+        .intro-divider {
+            height: 3px;
+            background: linear-gradient(to right, transparent, var(--ink), transparent);
+            margin: 20px auto;
+            width: 70%;
+        }
+
+        .intro-robot-icon {
+            font-size: 4rem;
+            line-height: 1;
+            margin: 16px 0;
+            filter: drop-shadow(2px 2px 0 rgba(0,0,0,0.2));
+        }
+
+        .intro-btn {
+            background: var(--ink);
+            color: var(--paper);
+            border: none;
+            padding: 14px 36px;
+            font-family: 'Bangers', cursive;
+            font-size: 1.6rem;
+            letter-spacing: 3px;
+            cursor: pointer;
+            position: relative;
+            border-radius: 2px;
+            box-shadow: 4px 4px 0 var(--accent-red);
+            transition: transform 0.1s, box-shadow 0.1s;
+            margin-top: 8px;
+        }
+
+        .intro-btn:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0 var(--accent-red);
+        }
+        .intro-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0 var(--accent-red);
+        }
+
+        /* ─── ANIMAÇÃO DE ABERTURA DO LIVRO ─── */
+        #book-open-anim {
+            position: fixed;
+            inset: 0;
+            z-index: 998;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: #0d0d0d;
+            perspective: 1200px;
+        }
+
+        .book-anim-wrap {
+            width: 500px;
+            height: 360px;
+            position: relative;
+            transform-style: preserve-3d;
+        }
+
+        .book-half {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: var(--paper);
+            border: 3px solid var(--ink);
+            transform-origin: right center;
+            transform-style: preserve-3d;
+            transition: transform 0.9s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        }
+
+        .book-half.left {
+            left: 0;
+            transform-origin: right center;
+            border-right: none;
+        }
+        .book-half.right {
+            left: 50%;
+            transform-origin: left center;
+            border-left: 2px solid rgba(0,0,0,0.2);
+        }
+
+        .book-half.left.open { transform: rotateY(-160deg); }
+        .book-half.right.open { transform: rotateY(160deg); }
+
+        .book-half-spine {
+            position: absolute;
+            top: 0; bottom: 0;
+            width: 12px;
+            background: linear-gradient(to right, #1a0e04, #3d2409, #1a0e04);
+        }
+        .book-half.left .book-half-spine { right: 0; }
+        .book-half.right .book-half-spine { left: 0; }
+
+        /* ─── LAYOUT PRINCIPAL (MANGÁ) ─── */
+        #manga-stage {
+            position: fixed;
+            inset: 0;
+            z-index: 10;
+            display: none;
+            padding: 16px;
+            gap: 0;
+        }
+
+        /* GRADE DE PAINÉIS NO ESTILO MANGÁ */
+        .manga-grid {
             width: 100%;
             height: 100%;
-            background: #222;
+            display: grid;
+            grid-template-columns: 1.4fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            gap: 0;
+            background: var(--ink);
+            border: 3px solid var(--ink);
+            box-shadow:
+                0 0 0 2px #0d0d0d,
+                0 0 0 6px var(--ink),
+                0 20px 60px rgba(0,0,0,0.8);
+            border-radius: 2px;
             overflow: hidden;
-            font-family: 'Georgia', serif;
+            max-height: 100%;
         }
 
-        #book-container {
-            width: 90vw;
-            height: 80vh;
-            margin: 5vh auto;
-            background: var(--book-bg);
-            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        /* Painel 1: Imagem principal (grande, esquerda) */
+        .panel-image {
+            grid-column: 1;
+            grid-row: 1 / 3;
             position: relative;
+            overflow: hidden;
+            background: #111;
+            border-right: 4px solid var(--ink);
+        }
+
+        /* Painel 2: Título / Header (direita topo) */
+        .panel-header {
+            grid-column: 2;
+            grid-row: 1;
+            background: var(--ink);
+            padding: 16px 20px 12px;
             display: flex;
-            border-radius: 10px;
-            overflow: hidden;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 3px solid #3a2a14;
+            min-height: 70px;
         }
 
-        /* Lado Esquerdo: Imagem */
-        #visual-side {
-            flex: 1;
-            background: #000;
+        /* Painel 3: Texto da história (direita meio) */
+        .panel-story {
+            grid-column: 2;
+            grid-row: 2;
+            background: var(--paper);
+            padding: 0;
             position: relative;
             overflow: hidden;
         }
 
+        /* Painel 4: Rodapé com escolhas (full width) */
+        .panel-choices {
+            grid-column: 1 / 3;
+            grid-row: 3;
+            background: var(--paper-dark);
+            border-top: 4px solid var(--ink);
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-height: 80px;
+        }
+
+        /* ─── IMAGEM DA CENA ─── */
         #scene-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transform: scale(1.1); /* Preparado para o Ken Burns Effect */
+            display: block;
         }
 
-        /* Lado Direito: Texto */
-        #text-side {
-            flex: 1;
-            padding: 60px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border-left: 2px solid rgba(0,0,0,0.1);
-            position: relative;
+        /* Overlay de halftone na imagem */
+        .panel-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle, rgba(0,0,0,0.6) 1px, transparent 1px);
+            background-size: 4px 4px;
+            pointer-events: none;
+            opacity: 0.25;
+            mix-blend-mode: multiply;
         }
 
-        #story-text {
-            font-size: 2.2rem;
-            line-height: 1.6;
-            color: #332b1a;
+        /* Efeito de velocidade (speed lines) cantos */
+        .speed-lines {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 5;
             opacity: 0;
+            transition: opacity 0.3s;
         }
 
-        #choices-container {
-            margin-top: 40px;
-            display: flex;
-            gap: 20px;
-            opacity: 0;
-        }
-
-        .choice-btn {
-            background: #a67c52;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            font-size: 1.2rem;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-
-        .choice-btn:hover {
-            transform: scale(1.05);
-            background: #8b6441;
-        }
-
-        /* Overlay de Loading */
+        /* ─── LOADER NO PAINEL DE IMAGEM ─── */
         #loader {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(244, 228, 188, 0.9);
-            display: flex;
+            inset: 0;
+            background: rgba(10, 8, 4, 0.85);
+            display: none;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            z-index: 100;
-            display: none;
+            z-index: 20;
+            color: var(--paper);
         }
 
-        .spinner {
-            width: 50px; height: 50px;
-            border: 5px solid #a67c52;
-            border-top-color: transparent;
+        .loader-panel-border {
+            border: 3px solid var(--paper);
+            padding: 24px 32px;
+            text-align: center;
+            position: relative;
+        }
+
+        .loader-panel-border::before,
+        .loader-panel-border::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border: 3px solid var(--accent-yellow);
+        }
+        .loader-panel-border::before { top: -3px; left: -3px; border-right: none; border-bottom: none; }
+        .loader-panel-border::after { bottom: -3px; right: -3px; border-left: none; border-top: none; }
+
+        .spinner-manga {
+            width: 48px; height: 48px;
+            border: 4px solid var(--paper-dark);
+            border-top-color: var(--accent-yellow);
             border-radius: 50%;
-            animation: spin 1s linear infinite;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        #loader-msg {
+            font-family: 'Bangers', cursive;
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            color: var(--accent-yellow);
         }
 
-        @keyframes spin { to { transform: rotate(360deg); } }
+        /* ─── HEADER DO PAINEL ─── */
+        .nao-badge {
+            background: var(--accent-red);
+            color: white;
+            font-family: 'Bangers', cursive;
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            padding: 4px 12px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .panel-title-text {
+            font-family: 'Bangers', cursive;
+            color: var(--paper);
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #2ecc71;
+            margin-left: auto;
+            flex-shrink: 0;
+            box-shadow: 0 0 6px #2ecc71;
+            animation: pulse-dot 2s infinite;
+        }
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* ─── TEXTO DA HISTÓRIA ─── */
+        .story-scroll {
+            height: 100%;
+            overflow-y: auto;
+            padding: 22px 24px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--ink) var(--paper);
+        }
+
+        /* Decoração de painel mangá no topo */
+        .story-panel-deco {
+            font-family: 'Bangers', cursive;
+            font-size: 0.7rem;
+            letter-spacing: 4px;
+            color: rgba(26,16,8,0.3);
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        #story-text {
+            font-family: 'Noto Serif', Georgia, serif;
+            font-size: 1.3rem;
+            line-height: 1.7;
+            color: var(--ink);
+            font-weight: 400;
+        }
+
+        /* Balão de fala estilo HQ para trechos de diálogo */
+        .speech-deco {
+            display: inline-block;
+            background: var(--ink);
+            color: var(--paper);
+            font-family: 'Bangers', cursive;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            vertical-align: middle;
+        }
+
+        /* ─── PAINEL DE ESCOLHAS ─── */
+        .choices-label {
+            font-family: 'Bangers', cursive;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: var(--ink);
+            opacity: 0.5;
+            flex-shrink: 0;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            padding: 4px 0;
+        }
+
+        #choices-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex: 1;
+            align-items: center;
+        }
+
+        .choice-btn {
+            background: var(--ink);
+            color: var(--paper);
+            border: 2px solid var(--ink);
+            padding: 10px 18px;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border-radius: 2px;
+            cursor: default;
+            position: relative;
+            box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+            transition: transform 0.15s;
+            flex: 1 1 auto;
+            min-width: 140px;
+            text-align: center;
+        }
+
+        /* Número do balão */
+        .choice-btn::before {
+            content: attr(data-num);
+            position: absolute;
+            top: -10px;
+            left: -8px;
+            background: var(--accent-red);
+            color: white;
+            font-family: 'Bangers', cursive;
+            font-size: 0.9rem;
+            width: 22px; height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--paper);
+        }
+
+        /* ─── EFEITOS DE TRANSIÇÃO MANGÁ ─── */
+        .panel-flash {
+            position: fixed;
+            inset: 0;
+            background: white;
+            z-index: 900;
+            pointer-events: none;
+            opacity: 0;
+        }
+
+        /* ─── ONOMATOPEIA ALEATÓRIA ─── */
+        .sfx-text {
+            position: absolute;
+            font-family: 'Bangers', cursive;
+            font-size: 4rem;
+            color: var(--accent-yellow);
+            -webkit-text-stroke: 3px var(--ink);
+            text-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+            pointer-events: none;
+            z-index: 15;
+            opacity: 0;
+            transform-origin: center;
+        }
+
+        /* ─── PAINEL DIAGONAL DECORATIVO ─── */
+        .panel-image-inner {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+        }
+
+        /* ─── RESPONSIVO ─── */
+        @media (max-width: 768px) {
+            #manga-stage { padding: 8px; }
+            .manga-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: 45vh auto auto;
+            }
+            .panel-image { grid-column: 1; grid-row: 1; border-right: none; border-bottom: 4px solid var(--ink); }
+            .panel-header { grid-column: 1; grid-row: 2; }
+            .panel-story { grid-column: 1; grid-row: 3; }
+            .panel-choices { grid-column: 1; grid-row: 4; }
+            #story-text { font-size: 1.1rem; }
+        }
+
+        /* ─── TEXTURA PAPEL ─── */
+        .paper-texture {
+            position: absolute;
+            inset: 0;
+            background-image:
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+            opacity: 0.4;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
 
-    <div id="book-container">
-        <div id="visual-side">
-            <img id="scene-image" src="" alt="Cena">
-        </div>
-        <div id="text-side">
-            <div id="story-text"></div>
-            <div id="choices-container"></div>
-        </div>
+<!-- Flash branco para transições -->
+<div class="panel-flash" id="panel-flash"></div>
 
-        <div id="loader">
-            <div class="spinner"></div>
-            <p id="loader-msg">NAO está pensando...</p>
+<!-- Tela de intro -->
+<div id="intro-screen">
+    <div class="intro-cover">
+        <div class="manga-dots"></div>
+        <div class="intro-cover-inner">
+            <div class="intro-vol">Vol. 1</div>
+            <div class="intro-title">NAO</div>
+            <div class="intro-subtitle">História da Computação</div>
+            <div class="intro-divider"></div>
+            <div class="intro-robot-icon">🤖</div>
+            <div style="height: 12px;"></div>
+            <button class="intro-btn" id="btn-start">▶ INICIAR</button>
+            <div style="margin-top: 16px; font-family: 'M PLUS Rounded 1c', sans-serif; font-size: 0.7rem; color: rgba(26,16,8,0.4); letter-spacing: 1px;">
+                AGUARDANDO SERVIDOR...
+            </div>
         </div>
     </div>
+</div>
 
-    <script>
-        const API_URL = "http://192.168.x.x:5000"; // IP do Servidor IA (CABEADO)
-        const ROBOT_URL = "http://localhost:8080"; // Este PC (WIFI + Conectado ao NAO)
+<!-- Animação de abertura do livro -->
+<div id="book-open-anim">
+    <div class="book-anim-wrap" id="book-anim-wrap">
+        <div class="book-half left" id="book-left">
+            <div class="book-half-spine"></div>
+        </div>
+        <div class="book-half right" id="book-right">
+            <div class="book-half-spine"></div>
+        </div>
+    </div>
+</div>
 
-        let currentSession = null;
+<!-- Stage principal no estilo mangá -->
+<div id="manga-stage">
+    <div class="manga-grid">
 
-        async function speakNAO(text) {
+        <!-- Painel Imagem (esquerda) -->
+        <div class="panel-image">
+            <div class="panel-image-inner">
+                <img id="scene-image" src="" alt="Cena">
+                <svg class="speed-lines" id="speed-lines" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice"></svg>
+            </div>
+            <!-- Loader -->
+            <div id="loader">
+                <div class="loader-panel-border">
+                    <div class="spinner-manga"></div>
+                    <div id="loader-msg">PINTANDO CENA...</div>
+                </div>
+            </div>
+            <!-- Onomatopeia -->
+            <div class="sfx-text" id="sfx-text"></div>
+        </div>
+
+        <!-- Header (direita topo) -->
+        <div class="panel-header">
+            <div class="nao-badge">NAO</div>
+            <div class="panel-title-text">HISTÓRIA DA COMPUTAÇÃO</div>
+            <div class="status-dot" id="status-dot"></div>
+        </div>
+
+        <!-- Texto da história (direita) -->
+        <div class="panel-story">
+            <div class="paper-texture"></div>
+            <div class="story-scroll">
+                <div class="story-panel-deco">◆ historia ◆</div>
+                <span class="speech-deco">NAO diz:</span>
+                <div id="story-text" style="margin-top: 10px;">Aguardando início da história...</div>
+            </div>
+        </div>
+
+        <!-- Painel de Escolhas (rodapé) -->
+        <div class="panel-choices">
+            <div class="choices-label">OPÇÕES</div>
+            <div id="choices-container">
+                <div style="font-family:'M PLUS Rounded 1c',sans-serif; font-size:0.9rem; color:rgba(26,16,8,0.4); font-style:italic;">
+                    Aguardando opções...
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    const SERVER_IP = "localhost";
+    const API_URL = `http://${SERVER_IP}:5000`;
+    const ROBOT_URL = "http://localhost:8080";
+
+    let lastSessionId = null;
+    let lastHistoryText = null;
+    let imageTimer = null;
+
+    // ─── ANIMAÇÃO DE ABERTURA ───
+    function openBook(callback) {
+        const anim = document.getElementById('book-open-anim');
+        anim.style.display = 'flex';
+
+        setTimeout(() => {
+            document.getElementById('book-left').classList.add('open');
+            document.getElementById('book-right').classList.add('open');
+        }, 300);
+
+        setTimeout(() => {
+            anim.style.display = 'none';
+            if (callback) callback();
+        }, 1400);
+    }
+
+    // ─── FLASH BRANCO (TRANSIÇÃO DE CENA) ───
+    function sceneFlash() {
+        const flash = document.getElementById('panel-flash');
+        gsap.fromTo(flash,
+            { opacity: 0.9 },
+            { opacity: 0, duration: 0.5, ease: "power2.out" }
+        );
+    }
+
+    // ─── ONOMATOPEIA ───
+    const sfxWords = ["CLANK!", "ZAP!", "WOW!", "BEEP!", "POW!", "ZZZ!", "OH!"];
+    function showSFX() {
+        const el = document.getElementById('sfx-text');
+        el.innerText = sfxWords[Math.floor(Math.random() * sfxWords.length)];
+        el.style.top = (10 + Math.random() * 30) + '%';
+        el.style.left = (5 + Math.random() * 20) + '%';
+        el.style.fontSize = (3 + Math.random() * 3) + 'rem';
+        el.style.transform = `rotate(${-20 + Math.random() * 40}deg)`;
+        gsap.fromTo(el,
+            { opacity: 0, scale: 0.4 },
+            { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)",
+              onComplete: () => gsap.to(el, { opacity: 0, duration: 0.4, delay: 1.2 }) }
+        );
+    }
+
+    // ─── NAO FALA ───
+    async function speakNAO(text) {
+        if (!text) return;
+        try {
+            await fetch(`${ROBOT_URL}/speak`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text })
+            });
+        } catch (e) { console.error("Erro ao falar com NAO", e); }
+    }
+
+    // ─── IMAGEM COM RETRY ───
+    async function loadImageWithRetry(url, retries = 15) {
+        for (let i = 0; i < retries; i++) {
             try {
-                await fetch(`${ROBOT_URL}/speak`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ text })
-                });
-            } catch (e) { console.error("Erro ao falar com NAO", e); }
+                const resp = await fetch(url);
+                if (resp.ok) return true;
+            } catch (e) {}
+            await new Promise(r => setTimeout(r, 3000));
         }
+        return false;
+    }
 
-        function updateScene(data) {
-            // 1. Inicia Ken Burns Effect na imagem
-            const img = document.getElementById('scene-image');
-            img.src = `http://192.168.x.x:5000/get_image/${data.prompts_imagens[0]}`; // Ajustar rota de imagem se necessário
-            
-            gsap.fromTo(img, { scale: 1.1, x: -20 }, { scale: 1.3, x: 20, duration: 15, ease: "sine.inOut" });
+    // ─── CICLO DE IMAGENS ───
+    async function startImageCycle(images) {
+        if (imageTimer) clearInterval(imageTimer);
+        const imgEl = document.getElementById('scene-image');
+        const loader = document.getElementById('loader');
+        let currentIndex = 0;
 
-            // 2. Animação de Texto
-            const textEl = document.getElementById('story-text');
-            textEl.innerText = data.historia_original;
-            gsap.to(textEl, { opacity: 1, y: -20, duration: 1.5, delay: 0.5 });
+        const playFrame = async (idx) => {
+            const url = `${API_URL}/images/${images[idx]}`;
+            loader.style.display = 'flex';
+            const ready = await loadImageWithRetry(url);
+            if (ready) {
+                loader.style.display = 'none';
+                imgEl.src = url;
+                // Animação Ken Burns suave
+                gsap.fromTo(imgEl,
+                    { scale: 1.08, x: -15, y: 5 },
+                    { scale: 1.25, x: 15, y: -5, duration: 12, ease: "sine.inOut" }
+                );
+                showSFX();
+            }
+        };
 
-            // 3. Trigger NAO Speech
-            speakNAO(data.fala_robo);
+        await playFrame(0);
 
-            // 4. Mostra opções após delay
-            const choicesEl = document.getElementById('choices-container');
-            choicesEl.innerHTML = '';
+        if (images.length > 1) {
+            imageTimer = setInterval(async () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                await playFrame(currentIndex);
+            }, 12000);
+        }
+    }
+
+    // ─── ATUALIZA CENA ───
+    async function updateScene(data) {
+        if (!data) return;
+
+        sceneFlash();
+
+        // Texto com animação de entrada
+        const textEl = document.getElementById('story-text');
+        gsap.to(textEl, { opacity: 0, y: -8, duration: 0.2, onComplete: () => {
+            textEl.innerText = data.historia || data.historia_original || "Carregando história...";
+            gsap.fromTo(textEl, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" });
+        }});
+
+        speakNAO(data.fala_robo);
+
+        // Escolhas
+        const choicesEl = document.getElementById('choices-container');
+        choicesEl.innerHTML = '';
+        if (data.opcoes && data.opcoes.length > 0) {
             data.opcoes.forEach((opt, i) => {
-                const btn = document.createElement('button');
+                const btn = document.createElement('div');
                 btn.className = 'choice-btn';
+                btn.setAttribute('data-num', i + 1);
                 btn.innerText = opt;
-                btn.onclick = () => makeChoice(i, opt);
+                btn.style.opacity = 0;
                 choicesEl.appendChild(btn);
+                gsap.to(btn, { opacity: 1, duration: 0.3, delay: 0.2 + i * 0.12 });
             });
-            gsap.to(choicesEl, { opacity: 1, duration: 1, delay: 3 });
+        } else {
+            choicesEl.innerHTML = '<div style="font-family:\'M PLUS Rounded 1c\',sans-serif; font-size:0.9rem; color:rgba(26,16,8,0.4); font-style:italic;">Aguardando opções...</div>';
         }
 
-        async function startStory() {
-            document.getElementById('loader').style.display = 'flex';
-            const res = await fetch(`${API_URL}/iniciar_historia`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ nome: "Criança", tema: "Sertão Cordel", skill: "socializacao" })
-            });
-            const data = await res.json();
-            currentSession = data.session_id;
-            document.getElementById('loader').style.display = 'none';
-            updateScene(data);
+        // Imagens
+        const frames = data.imagens_arquivos || [];
+        if (data.referencia_arquivo) {
+            startImageCycle([data.referencia_arquivo, ...frames]);
+        } else if (frames.length > 0) {
+            startImageCycle(frames);
         }
+    }
 
-        async function makeChoice(idx, text) {
-            gsap.to(['#story-text', '#choices-container'], { opacity: 0, duration: 0.5 });
-            document.getElementById('loader').style.display = 'flex';
-            
-            const res = await fetch(`${API_URL}/escolher`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ session_id: currentSession, escolha_texto: text })
-            });
-            const data = await res.json();
-            document.getElementById('loader').style.display = 'none';
-            updateScene(data);
+    // ─── MONITORAMENTO ───
+    async function checkActiveSession() {
+        const loader = document.getElementById('loader');
+        try {
+            const res = await fetch(`${API_URL}/visualizador/cena_atual`);
+            const state = await res.json();
+
+            if (state.status === "ativo") {
+                const currentData = state.dados;
+                if (state.session_id !== lastSessionId || currentData.historia !== lastHistoryText) {
+                    lastSessionId = state.session_id;
+                    lastHistoryText = currentData.historia;
+                    loader.style.display = 'none';
+                    updateScene(currentData);
+                }
+            } else {
+                loader.style.display = 'flex';
+                document.getElementById('loader-msg').innerText = "AGUARDANDO HISTÓRIA...";
+            }
+        } catch (err) {
+            console.error("Erro ao sincronizar:", err);
         }
+    }
 
-        // Inicia automaticamente para teste
-        // window.onload = startStory;
-    </script>
+    // ─── INICIALIZAÇÃO ───
+    document.getElementById('btn-start').addEventListener('click', () => {
+        const intro = document.getElementById('intro-screen');
+        gsap.to(intro, { opacity: 0, duration: 0.3, onComplete: () => {
+            intro.style.display = 'none';
+            openBook(() => {
+                document.getElementById('manga-stage').style.display = 'flex';
+                gsap.fromTo('#manga-stage', { opacity: 0 }, { opacity: 1, duration: 0.4 });
+                setInterval(checkActiveSession, 3000);
+            });
+        }});
+    });
+</script>
 </body>
 </html>

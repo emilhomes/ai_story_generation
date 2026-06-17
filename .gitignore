@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+historias/estados/*.json
+historias_geradas/
+Thumbs.db

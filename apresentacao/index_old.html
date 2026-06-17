@@ -221,7 +221,7 @@
             height: 100%;
             display: grid;
             grid-template-columns: 1.4fr 1fr;
-            grid-template-rows: auto 1fr;
+            grid-template-rows: auto 1fr auto;
             gap: 0;
             background: var(--ink);
             border: 3px solid var(--ink);
@@ -265,6 +265,19 @@
             padding: 0;
             position: relative;
             overflow: hidden;
+        }
+
+        /* Painel 4: Rodapé com escolhas (full width) */
+        .panel-choices {
+            grid-column: 1 / 3;
+            grid-row: 3;
+            background: var(--paper-dark);
+            border-top: 4px solid var(--ink);
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-height: 80px;
         }
 
         /* ─── IMAGEM DA CENA ─── */
@@ -435,38 +448,29 @@
         }
 
         #choices-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex: 1;
+            align-items: center;
         }
 
         .choice-btn {
             background: var(--ink);
             color: var(--paper);
             border: 2px solid var(--ink);
-            padding: 10px;
+            padding: 10px 18px;
             font-family: 'M PLUS Rounded 1c', sans-serif;
-            font-size: 1.3rem;
+            font-size: 0.95rem;
             font-weight: 700;
-            border-radius: 6px;
-            cursor: pointer;
+            border-radius: 2px;
+            cursor: default;
             position: relative;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
-            transition: transform 0.15s, box-shadow 0.15s;
+            box-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+            transition: transform 0.15s;
+            flex: 1 1 auto;
+            min-width: 140px;
             text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            aspect-ratio: 4/3;
-            margin: 0;
-            line-height: 1.2;
-        }
-
-        .choice-btn:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.3);
-            background: #2a2a2a;
         }
 
         /* Número do balão */
@@ -618,92 +622,27 @@
             </div>
         </div>
 
-    </div>
-</div>
+        <!-- Painel de Escolhas (rodapé) -->
+        <div class="panel-choices">
+            <div class="choices-label">OPÇÕES</div>
+            <div id="choices-container">
+                <div style="font-family:'M PLUS Rounded 1c',sans-serif; font-size:0.9rem; color:rgba(26,16,8,0.4); font-style:italic;">
+                    Aguardando opções...
+                </div>
+            </div>
+        </div>
 
-<!-- Modal de Interação (Criação de Personagem, etc) -->
-<div id="interaction-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; flex-direction:column; justify-content:center; align-items:center;">
-    <div style="background:var(--paper); padding:50px; border-radius:12px; max-width:900px; width:90%; text-align:center; box-shadow: 8px 8px 0 rgba(0,0,0,1); border: 4px solid var(--ink);">
-        <h2 id="modal-question" style="font-family:'Bangers'; font-size:3.5rem; color:var(--ink); margin-bottom:40px; line-height:1.2;"></h2>
-        <div id="modal-options" style="display:grid; grid-template-columns: 1fr 1fr; gap:20px; width: 100%; max-width: 600px; margin: 0 auto;"></div>
     </div>
 </div>
 
 <script>
     const SERVER_IP = "192.168.16.76";
     const API_URL = `http://${SERVER_IP}:5000`;
-    const ROBOT_URL = "http://localhost:8080";
+    const ROBOT_URL = "http://172.16.60.67:8080";
 
     let lastSessionId = null;
     let lastHistoryText = null;
     let imageTimer = null;
-    let currentModalData = null;
-
-    let isModalLocallyOpen = false;
-
-    // ─── LÓGICA DO MODAL ───
-    function showModal(data) {
-        if (currentModalData && currentModalData.pergunta === data.pergunta) return;
-        currentModalData = data;
-        isModalLocallyOpen = true; // Marca que o modal foi aberto pela apresentação
-        
-        const modalEl = document.getElementById('interaction-modal');
-        const modalBox = modalEl.querySelector('div');
-        
-        modalEl.style.display = 'flex';
-        document.getElementById('modal-question').innerText = data.pergunta;
-        
-        // Animação de entrada
-        gsap.fromTo(modalBox, { scale: 0.8, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(1.7)" });
-        
-        const optsContainer = document.getElementById('modal-options');
-        optsContainer.innerHTML = '';
-        optsContainer.style.pointerEvents = 'auto'; // CORREÇÃO: reabilita os cliques para a nova pergunta
-        
-        if (data.opcoes && data.opcoes.length > 0) {
-            data.opcoes.forEach((opt, idx) => {
-                const btn = document.createElement('div');
-                btn.className = 'choice-btn';
-                btn.innerText = opt;
-                btn.style.fontSize = '1.8rem';
-                btn.style.display = 'flex';
-                btn.style.alignItems = 'center';
-                btn.style.justifyContent = 'center';
-                btn.style.aspectRatio = '4/3';
-                btn.style.padding = '10px';
-                btn.style.margin = '0'; // Previne conflitos de margem no grid
-                
-                btn.onclick = async () => {
-                    optsContainer.style.pointerEvents = 'none';
-                    btn.style.background = 'var(--accent-red)';
-                    btn.style.color = '#fff';
-                    
-                    try {
-                        await fetch(`${API_URL}/enviar_escolha`, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ 
-                                escolha_idx: idx, 
-                                escolha_texto: opt 
-                            })
-                        });
-                        hideModal(); // Fecha o modal imediatamente após o clique bem sucedido
-                    } catch(e) {
-                        console.error("Erro ao enviar escolha do modal:", e);
-                    }
-                };
-                optsContainer.appendChild(btn);
-            });
-        }
-    }
-
-    function hideModal() {
-        document.getElementById('interaction-modal').style.display = 'none';
-        currentModalData = null;
-        isModalLocallyOpen = false;
-        const optsContainer = document.getElementById('modal-options');
-        if(optsContainer) optsContainer.style.pointerEvents = 'auto';
-    }
 
     // ─── ANIMAÇÃO DE ABERTURA ───
     function openBook(callback) {
@@ -746,6 +685,18 @@
         );
     }
 
+    // ─── NAO FALA ───
+    async function speakNAO(text) {
+        if (!text) return;
+        try {
+            await fetch(`${ROBOT_URL}/speak`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text })
+            });
+        } catch (e) { console.error("Erro ao falar com NAO", e); }
+    }
+
     // ─── IMAGEM COM RETRY ───
     async function loadImageWithRetry(url, retries = 15) {
         for (let i = 0; i < retries; i++) {
@@ -759,23 +710,18 @@
     }
 
     // ─── CICLO DE IMAGENS ───
-    let currentSequenceId = 0;
-
-    async function startImageSequence(images, data) {
-        if (imageTimer) clearTimeout(imageTimer);
-        currentSequenceId++;
-        const seqId = currentSequenceId;
-        
+    async function startImageCycle(images) {
+        if (imageTimer) clearInterval(imageTimer);
         const imgEl = document.getElementById('scene-image');
         const loader = document.getElementById('loader');
+        let currentIndex = 0;
 
         const playFrame = async (idx) => {
             const url = `${API_URL}/images/${images[idx]}`;
-            // Removemos o loader para não piscar "Aguardando" enquanto a IA ainda está gerando a imagem 2 e 3
+            loader.style.display = 'flex';
             const ready = await loadImageWithRetry(url);
-            if (seqId !== currentSequenceId) return false;
-            
             if (ready) {
+                loader.style.display = 'none';
                 imgEl.src = url;
                 // Animação Ken Burns suave
                 gsap.fromTo(imgEl,
@@ -783,67 +729,16 @@
                     { scale: 1.25, x: 15, y: -5, duration: 12, ease: "sine.inOut" }
                 );
                 showSFX();
-                return true;
             }
-            return false;
         };
 
-        if (images.length === 0) {
-            triggerDecisionModal(data);
-            return;
-        }
+        await playFrame(0);
 
-        for (let i = 0; i < images.length; i++) {
-            if (seqId !== currentSequenceId) return;
-            await playFrame(i);
-            
-            if (i < images.length - 1) {
-                // Espera o tempo da imagem antes de ir para a próxima
-                await new Promise(r => setTimeout(r, 12000));
-            } else {
-                // Última imagem: espera 8 segundos e chama o modal
-                await new Promise(r => setTimeout(r, 8000));
-                if (seqId === currentSequenceId) {
-                    triggerDecisionModal(data);
-                }
-            }
-        }
-    }
-
-    async function triggerDecisionModal(data) {
-        if (data.opcoes && data.opcoes.length > 0) {
-            if (data.session_id === lastSessionId || !lastSessionId) {
-                const transicoes = [
-                    "E agora, vamos por",
-                    "Qual será o nosso próximo passo? Escolha",
-                    "O que você acha melhor fazer? Podemos ir por",
-                    "A decisão é sua! Vamos por",
-                    "Chegou a hora de decidir! Você prefere",
-                    "O destino está em suas mãos. Vamos seguir por"
-                ];
-                const t = transicoes[Math.floor(Math.random() * transicoes.length)];
-                const perguntaRobo = `${t} ${data.opcoes[0]}, ou por ${data.opcoes[1]}?`;
-
-                // Mostra o modal IMEDIATAMENTE no telão
-                showModal({
-                    pergunta: "QUAL É A SUA DECISÃO?",
-                    opcoes: data.opcoes
-                });
-
-                // E avisa o backend para o robô falar
-                try {
-                    await fetch(`${API_URL}/publicar_modal`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ 
-                            pergunta: perguntaRobo,
-                            opcoes: data.opcoes 
-                        })
-                    });
-                } catch (e) {
-                    console.error("Erro ao publicar modal da história:", e);
-                }
-            }
+        if (images.length > 1) {
+            imageTimer = setInterval(async () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                await playFrame(currentIndex);
+            }, 12000);
         }
     }
 
@@ -887,9 +782,6 @@
     async function updateScene(data) {
         if (!data) return;
 
-        // Force cleanup of any previous modal
-        hideModal();
-
         sceneFlash();
 
         // Texto com animação de entrada
@@ -903,15 +795,31 @@
             playBackgroundSFX(histText);
         }});
 
+        speakNAO(data.fala_robo);
+
+        // Escolhas
+        const choicesEl = document.getElementById('choices-container');
+        choicesEl.innerHTML = '';
+        if (data.opcoes && data.opcoes.length > 0) {
+            data.opcoes.forEach((opt, i) => {
+                const btn = document.createElement('div');
+                btn.className = 'choice-btn';
+                btn.setAttribute('data-num', i + 1);
+                btn.innerText = opt;
+                btn.style.opacity = 0;
+                choicesEl.appendChild(btn);
+                gsap.to(btn, { opacity: 1, duration: 0.3, delay: 0.2 + i * 0.12 });
+            });
+        } else {
+            choicesEl.innerHTML = '<div style="font-family:\'M PLUS Rounded 1c\',sans-serif; font-size:0.9rem; color:rgba(26,16,8,0.4); font-style:italic;">Aguardando opções...</div>';
+        }
+
         // Imagens
         const frames = data.imagens_arquivos || [];
         if (data.referencia_arquivo) {
-            startImageSequence([data.referencia_arquivo, ...frames], data);
+            startImageCycle([data.referencia_arquivo, ...frames]);
         } else if (frames.length > 0) {
-            startImageSequence(frames, data);
-        } else {
-            // Se não tiver imagens, chama o modal mais rápido
-            setTimeout(() => triggerDecisionModal(data), 5000);
+            startImageCycle(frames);
         }
     }
 
@@ -924,26 +832,13 @@
 
             if (state.status === "ativo") {
                 const currentData = state.dados;
-                const histText = currentData.historia || currentData.historia_original || "";
-                
-                // Só processa nova cena se o texto ou sessão mudaram
-                if (state.session_id !== lastSessionId || histText !== lastHistoryText) {
+                if (state.session_id !== lastSessionId || currentData.historia !== lastHistoryText) {
                     lastSessionId = state.session_id;
-                    lastHistoryText = histText;
+                    lastHistoryText = currentData.historia;
                     loader.style.display = 'none';
-                    // Ao começar nova cena, forçamos o modal a fechar
-                    hideModal(); 
                     updateScene(currentData);
-                } else if (!isModalLocallyOpen) {
-                    // Se a cena é a mesma e o modal ainda não subiu, mantém o loader escondido
-                    loader.style.display = 'none';
                 }
-                
-            } else if (state.status === "modal") {
-                loader.style.display = 'none';
-                showModal(state.dados);
-            } else if (!isModalLocallyOpen) {
-                // Só mostra o loader se não estivermos interagindo com o modal
+            } else {
                 loader.style.display = 'flex';
                 document.getElementById('loader-msg').innerText = "AGUARDANDO HISTÓRIA...";
             }
